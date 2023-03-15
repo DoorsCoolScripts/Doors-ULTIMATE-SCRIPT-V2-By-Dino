@@ -222,6 +222,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "LEAVE GAME",
+	Callback = function()
+         game:Shutdown()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTROY GUI",
 	Callback = function()
          OrionLib:Destroy()
