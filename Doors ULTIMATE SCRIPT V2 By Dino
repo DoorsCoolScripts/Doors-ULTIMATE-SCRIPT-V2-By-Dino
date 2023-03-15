@@ -221,3 +221,9 @@ Tab:AddButton({
          loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
       	end    
 })
+Tab:AddButton({
+	Name = "DESTROY GUI",
+	Callback = function()
+         OrionLib:Destroy()
+      	end    
+})
