@@ -234,6 +234,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "DOORS FLOOR 2 (VERY HARD)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/FloorSpoof/main/Floor2Spoof"))()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
