@@ -222,6 +222,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "OPEN DOORS EARLY",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-Godmode/main/op"))()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTROY GUI",
 	Callback = function()
          OrionLib:Destroy()
