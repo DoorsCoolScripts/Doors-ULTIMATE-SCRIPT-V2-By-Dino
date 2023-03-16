@@ -228,7 +228,13 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "DESTROY GUI",
+	Name = "INF USE CRUCIFIX",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/INF-Crucifix/main/op"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
       	end    
