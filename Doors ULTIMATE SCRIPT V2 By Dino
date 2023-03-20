@@ -106,7 +106,7 @@ local Section = Tab:AddSection({
 	Name = "MODDIFY ENTITYS APPEARANCE (coming soon)"
 })
 local Section = Tab:AddSection({
-	Name = "THE END OF SCRIPT"
+	Name = "FREE SHEARS"
 })
 local Tab = Window:MakeTab({
 	Name = "SELECTIONS",
@@ -237,7 +237,13 @@ Tab:AddButton({
 	Name = "DOORS FLOOR 2 (VERY HARD)",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/FloorSpoof/main/Floor2Spoof"))()
-      	end    
+      	end
+})
+Tab:AddButton({
+	Name = "SHEARS (CAN BREAK GAME)",
+	Callback = function()
+      		loadstring(game:HttpGet("https://github.com/CreckHub/main-Scripts/raw/main/shears.lua"))()
+  	end    
 })
 Tab:AddButton({
 	Name = "DESTORY GUI",
