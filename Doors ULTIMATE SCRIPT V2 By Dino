@@ -240,15 +240,15 @@ Tab:AddButton({
       	end
 })
 Tab:AddButton({
-	Name = "SHEARS (CAN BREAK GAME)",
+	Name = "FREE SHEARS (CAN BREAK GAME)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://github.com/CreckHub/main-Scripts/raw/main/shears.lua"))()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Shears/main/op"))()
   	end    
 })
 Tab:AddButton({
-	Name = "SHEARS IN PRE RUN SHOP (CAN BREAK GAME)",
+	Name = "SHEARS IN RIFT (CAN BREAK GAME)",
 	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/shears-in-pre-run-shop/main/bozo%20%231"))()
+      		loadstring(game:HttpGet("https://github.com/CreckHub/main-Scripts/raw/main/shears.lua"))()
   	end    
 })
 Tab:AddButton({
