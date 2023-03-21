@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "Doors Hack ULTIMATE V2 By Dino", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DINOHAX (BETA)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
 	
 local Tab = Window:MakeTab({
 	Name = "OPTIONS",
