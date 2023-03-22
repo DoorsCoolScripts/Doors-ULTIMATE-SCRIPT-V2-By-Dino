@@ -67,7 +67,7 @@ local Section = Tab:AddSection({
 	Name = "FLY (coming soon)"
 })
 local Section = Tab:AddSection({
-	Name = "FREE AK/GUN (coming soon)"
+	Name = "FREE AK/GUN"
 })
 local Section = Tab:AddSection({
 	Name = "KILL YOURSELF FROM THE ANTICHEAT (coming soon)"
@@ -110,6 +110,9 @@ local Section = Tab:AddSection({
 })
 local Section = Tab:AddSection({
 	Name = "FREE SHEARS"
+})
+local Section = Tab:AddSection({
+	Name = "ULTRA VITAMINS (DRUGS)"
 })
 local Tab = Window:MakeTab({
 	Name = "SELECTIONS",
@@ -264,6 +267,12 @@ Tab:AddButton({
 	Name = "BECOME TINY",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/small-doors/main/op%20script"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "ULTRA VITAMINS (DRUGS)",
+	Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/god-vitamins/main/op%20script'))()
       	end    
 })
 Tab:AddButton({
