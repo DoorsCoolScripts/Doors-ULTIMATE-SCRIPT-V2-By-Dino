@@ -10,6 +10,9 @@ local Section = Tab:AddSection({
 	Name = "ESP ALL OBJECTS"
 })
 local Section = Tab:AddSection({
+	Name = "BECOME TINY"
+})
+local Section = Tab:AddSection({
 	Name = "AUTO LOOT"
 })
 local Section = Tab:AddSection({
@@ -255,6 +258,12 @@ Tab:AddButton({
 	Name = "GET A GUN",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doors-gun/main/gun"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "BECOME TINY",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/small-doors/main/op%20script"))()
       	end    
 })
 Tab:AddButton({
