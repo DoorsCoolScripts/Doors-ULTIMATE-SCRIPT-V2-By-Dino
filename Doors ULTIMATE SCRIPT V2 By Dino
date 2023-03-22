@@ -252,6 +252,12 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
+	Name = "GET A GUN",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doors-gun/main/gun"))()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
