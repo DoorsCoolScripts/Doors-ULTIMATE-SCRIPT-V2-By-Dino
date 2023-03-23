@@ -70,7 +70,7 @@ local Section = Tab:AddSection({
 	Name = "FREE AK/GUN"
 })
 local Section = Tab:AddSection({
-	Name = "KILL YOURSELF FROM THE ANTICHEAT (coming soon)"
+	Name = "KILL YOURSELF"
 })
 local Section = Tab:AddSection({
 	Name = "AUTO LIBRARY CODE"
@@ -273,6 +273,12 @@ Tab:AddButton({
 	Name = "ULTRA VITAMINS (DRUGS)",
 	Callback = function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/god-vitamins/main/op%20script'))()
+      	end    
+})
+Tab:AddButton({
+	Name = "KILL YOURSELF",
+	Callback = function()
+        game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
       	end    
 })
 Tab:AddButton({
