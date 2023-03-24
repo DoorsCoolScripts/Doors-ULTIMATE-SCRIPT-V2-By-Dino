@@ -156,6 +156,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "TABLET IN RIFT",
+	Callback = function()
+         loadstring(game:HttpGet('https://pastebin.com/raw/bucRxAMi'))()
+      	end    
+})
+Tab:AddButton({
 	Name = "OPEN MAYHEM MODE SCRIPT",
 	Callback = function()
          loadstring(game:HttpGet("https://github.com/HollowedOutMods/MayhemMode/blob/main/loader.lua?raw=true"))()
