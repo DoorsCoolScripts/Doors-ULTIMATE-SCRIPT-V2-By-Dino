@@ -282,6 +282,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "CRUCIFIX ON EVERYTHING (Q + LEFT CLICK)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/crucifixonall/main/op%20script"))()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
