@@ -26,7 +26,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "OPEN POOPDOORS V0.1 (ORGINAL)",
 	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/bypassspeed100/main/op%20script"))()
       	end    
 })
 Tab:AddButton({
