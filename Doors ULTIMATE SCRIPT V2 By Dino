@@ -12,13 +12,19 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "OPEN POOPDOORS SCRIPT (ROOMS + DOORS)",
+	Name = "OPEN MSDOORS/POOPDOORS SCRIPT (ROOMS + DOORS)",
 	Callback = function()
          loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
       	end    
 })
 Tab:AddButton({
 	Name = "OPEN VERY OP SCRIPT (INF KNOBS +)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "OPEN POOPDOORS V0.1 (ORGINAL)",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
       	end    
