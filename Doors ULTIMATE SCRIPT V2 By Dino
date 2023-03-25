@@ -120,31 +120,37 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "OPEN DOORS SCRIPT (LESS FEATURES)",
+	Name = "OPEN VYNIXIUS HUB SCRIPT (ROOMS + DOORS)",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
       	end    
 })
 Tab:AddButton({
-	Name = "OPEN ROOMS SCRIPT (LESS FEATURES)",
+	Name = "OPEN POOPDOORS SCRIPT (ROOMS + DOORS)",
 	Callback = function()
          loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
       	end    
 })
 Tab:AddButton({
-	Name = "OPEN MORPHS SCRIPT (LESS FEATURES)",
+	Name = "OPEN VERY OP SCRIPT (INF KNOBS +)",
+	Callback = function()
+         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
+      	end    
+})
+Tab:AddButton({
+	Name = "OPEN MORPHS SCRIPT (KINDA BAD WILL UPDATE)",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
       	end    
 })
 Tab:AddButton({
-	Name = "OPEN ENTITY SPAWNER SCRIPT (LESS FEATURES)",
+	Name = "OPEN ENTITY SPAWNER SCRIPT",
 	Callback = function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
       	end    
 })
 Tab:AddButton({
-	Name = "OPEN BYPASSER SCRIPT (LESS FEATURES)",
+	Name = "OPEN BYPASSER SCRIPT",
 	Callback = function()
          loadstring(game:HttpGet('https://raw.githubusercontent.com/weszek/Doors/main/Doors%20by'))()
       	end    
