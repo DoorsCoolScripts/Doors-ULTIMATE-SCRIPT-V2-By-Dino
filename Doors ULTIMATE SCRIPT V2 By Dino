@@ -1,121 +1,7 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "DINOHAX (BETA)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
-	
 local Tab = Window:MakeTab({
-	Name = "OPTIONS",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-local Section = Tab:AddSection({
-	Name = "ESP ALL OBJECTS"
-})
-local Section = Tab:AddSection({
-	Name = "BECOME TINY"
-})
-local Section = Tab:AddSection({
-	Name = "AUTO LOOT"
-})
-local Section = Tab:AddSection({
-	Name = "NO FIGURE (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "NO SEEK"
-})
-local Section = Tab:AddSection({
-	Name = "FREE REVIVES (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "PLUSHY OF ANY ENTITY"
-})
-local Section = Tab:AddSection({
-	Name = "KILL ALL ENTITYS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "KILL GUI"
-})
-local Section = Tab:AddSection({
-	Name = "FREE KNOBS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "FREE BOOST (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "MORPH INTO ANY ENTITY"
-})
-local Section = Tab:AddSection({
-	Name = "FREE CRUCIFIX"
-})
-local Section = Tab:AddSection({
-	Name = "IMMUNE TO ENTITYS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "FREE TABLET"
-})
-local Section = Tab:AddSection({
-	Name = "AUTO FINISH DOORS"
-})
-local Section = Tab:AddSection({
-	Name = "TP TO ROOMS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "INSTANT A-1000"
-})
-local Section = Tab:AddSection({
-	Name = "NOCLIP"
-})
-local Section = Tab:AddSection({
-	Name = "FLY (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "FREE AK/GUN"
-})
-local Section = Tab:AddSection({
-	Name = "KILL YOURSELF"
-})
-local Section = Tab:AddSection({
-	Name = "AUTO LIBRARY CODE"
-})
-local Section = Tab:AddSection({
-	Name = "AUTO FUSE"
-})
-local Section = Tab:AddSection({
-	Name = "AUTO DOOR 100 MINIGAME"
-})
-local Section = Tab:AddSection({
-	Name = "LOLCAT SCRIPTS"
-})
-local Section = Tab:AddSection({
-	Name = "KARDIN HONGS SCRIPTS"
-})
-local Section = Tab:AddSection({
-	Name = "WALKSPEED CHANGER 0 - 25"
-})
-local Section = Tab:AddSection({
-	Name = "KILL ROBLOX"
-})
-local Section = Tab:AddSection({
-	Name = "LEAVE"
-})
-local Section = Tab:AddSection({
-	Name = "KILL FRIENDS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "INSTANT COINS (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "FREE SKELETON KEY (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "MODDIFY ENTITYS APPEARANCE (coming soon)"
-})
-local Section = Tab:AddSection({
-	Name = "FREE SHEARS"
-})
-local Section = Tab:AddSection({
-	Name = "ULTRA VITAMINS (DRUGS)"
-})
-local Tab = Window:MakeTab({
-	Name = "SELECTIONS",
+	Name = "DOORS",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
@@ -303,5 +189,78 @@ Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
+      	end    
+})
+local Tab = Window:MakeTab({
+	Name = "ARSENAL + OWL HUB",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "ARSENAL SCRIPT",
+	Callback = function()
+         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+      	end    
+})
+Tab:AddButton({
+	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+      	end    
+})
+local Tab = Window:MakeTab({
+	Name = "PSX",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "PSX SCRIPTS",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+      	end    
+})
+local Tab = Window:MakeTab({
+	Name = "KAT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+      	end    
+})
+local Tab = Window:MakeTab({
+	Name = "BIG PAINTBALL",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+      	end    
+})
+local Tab = Window:MakeTab({
+	Name = "PLS DONATE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "FAKE DONATION (CLIENT SIDED)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "ROBUX GRINDER #1",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/tzechco"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "ROBUX GRINDER #2",
+	Callback = function()
+         loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
       	end    
 })
