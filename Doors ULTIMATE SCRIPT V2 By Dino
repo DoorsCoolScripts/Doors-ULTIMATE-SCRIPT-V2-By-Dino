@@ -134,7 +134,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "OPEN VERY OP SCRIPT (INF KNOBS +)",
 	Callback = function()
-         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/poopdoors_edited/main/poopdoors_edited.lua"),true))() 
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
       	end    
 })
 Tab:AddButton({
