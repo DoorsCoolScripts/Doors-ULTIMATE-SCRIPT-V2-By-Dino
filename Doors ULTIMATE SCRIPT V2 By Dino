@@ -192,7 +192,7 @@ Tab:AddButton({
       	end    
 })
 local Tab = Window:MakeTab({
-	Name = "ARSENAL + OWL HUB",
+	Name = "ARSENAL",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
