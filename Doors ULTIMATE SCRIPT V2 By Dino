@@ -270,3 +270,38 @@ Tab:AddButton({
          loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
       	end    
 })
+local Tab = Window:MakeTab({
+	Name = "MY RESTAURANT",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "INFINITE YEILD",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      	end    
+}
+Tab:AddButton({
+	Name = "RAFA HUB (#1 OP GUI)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/mr.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "XYZ HUB (#2 SCRIPT GUI)",
+	Callback = function()
+         loadstring(game:HttpGet("https://system-exodus.com/scripts/MyRestaurant/MyRestaurant.lua", true))()
+      	end    
+})
+Tab:AddButton({
+	Name = "PROJECT WD !KEY! (#3 SCIPT GUI)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "MILK UP (#4 KINDA BAD SCRIPT)",
+	Callback = function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/uBpUr2vU"))()
+      	end    
+})
