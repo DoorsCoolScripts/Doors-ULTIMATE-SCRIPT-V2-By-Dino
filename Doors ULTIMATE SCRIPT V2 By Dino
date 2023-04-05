@@ -346,3 +346,9 @@ Tab:AddButton({
             game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = true -- add gamepass gui
   	end    
 })
+Tab:AddButton({
+	Name = "INFINITE YEILD",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      	end    
+})
