@@ -305,3 +305,44 @@ Tab:AddButton({
          loadstring(game:HttpGet("https://pastebin.com/raw/uBpUr2vU"))()
       	end    
 })
+local Tab = Window:MakeTab({
+	Name = "IMPOSSIBLE GLASS BRIDGE OBBY",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "AFK AUTO FARM",
+	Callback = function()
+      		function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218) wait(0.75) l() end l()
+  	end    
+})
+Tab:AddButton({
+	Name = "TP TO THE END",
+	Callback = function()
+      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218)
+  	end    
+})
+Tab:AddButton({
+	Name = "SEE CORRECT ANSWERS",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/correctsee/main/e"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "HIDE GAMEPASS STUFF",
+	Callback = function()
+      		game:GetService("Workspace").Pads.Parent = game.Lighting -- remove gamepass pads
+            game:GetService("Workspace")["Become Squid Front Man"].Parent = game.Lighting -- remove become front man gamepass
+            game:GetService("Workspace")["Become Squid Game Guard"].Parent = game.Lighting -- remove become guard gamepass
+            game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = false -- remove gamepass gui   
+  	end    
+})
+Tab:AddButton({
+	Name = "SHOW GAMEPASS STUFF",
+	Callback = function()
+      		game:GetService("Lighting").Pads.Parent = game.workspace -- add gamepass pads
+            game:GetService("Lighting")["Become Squid Front Man"].Parent = game.workspace -- add become front man gamepass
+            game:GetService("Lighting")["Become Squid Game Guard"].Parent = game.workspace -- add become guard gamepass
+            game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = true -- add gamepass gui
+  	end    
+})
