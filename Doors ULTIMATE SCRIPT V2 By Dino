@@ -352,3 +352,9 @@ Tab:AddButton({
          loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
       	end    
 })
+Tab:AddButton({
+	Name = "TP NEXT TO END",
+	Callback = function()
+         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1076.18481, 60.9356613, 115.200974, -0.0746926963, 1.08275178e-09, -0.997206628, -2.08716222e-09, 1, 1.2421173e-09, 0.997206628, 2.17410911e-09, -0.0746926963)
+      	end    
+})
