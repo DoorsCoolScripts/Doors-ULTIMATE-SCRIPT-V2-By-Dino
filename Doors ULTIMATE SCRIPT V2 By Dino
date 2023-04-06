@@ -358,3 +358,50 @@ Tab:AddButton({
          game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1076.18481, 60.9356613, 115.200974, -0.0746926963, 1.08275178e-09, -0.997206628, -2.08716222e-09, 1, 1.2421173e-09, 0.997206628, 2.17410911e-09, -0.0746926963)
       	end    
 })
+local Tab = Window:MakeTab({
+	Name = "GLIDE RACE",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "+1M SPEED (LIGHTNING)",
+	Callback = function()
+         local a = 1000000
+for i = 1,a do
+  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+end
+      	end    
+})
+Tab:AddButton({
+	Name = "QUICK SPEED AFK AUTO FARM",
+	Callback = function()
+         function l()
+  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(50)
+wait(0.0000001)
+l()
+end
+l()
+      	end    
+})
+Tab:AddButton({
+	Name = "+10K SPEED",
+	Callback = function()
+         local a = 10000
+for i = 1,a do
+  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+end
+      	end    
+})
+Tab:AddButton({
+	Name = "+1 SPEED",
+	Callback = function()
+  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+      	end    
+})
+Tab:AddButton({
+	Name = "SLOWER AUTOFARM (LESS CHANCE OF BAN)",
+	Callback = function()
+         function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.90702939, 181.860809, 11.6168785, -0.999289513, 0.00669043371, 0.0370909795, -1.2993616e-08, 0.984118164, -0.177514598, -0.0376895554, -0.177388474, -0.983418941) wait(120) l() end l()
+      	end    
+})
+Tab:AddLabel("Or Just Use The Built In Auto-Fly To Not Get Ban!")
