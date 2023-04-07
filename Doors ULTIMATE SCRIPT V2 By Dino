@@ -1,5 +1,5 @@
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "DINOHAX (BETA)", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+local Window = OrionLib:MakeWindow({Name = "DinoHax (Beta)", HidePremium = true, SaveConfig = true, ConfigFolder = "dinocon", IntroText = "DinoHax"})
 local Tab = Window:MakeTab({
 	Name = "DOORS",
 	Icon = "rbxassetid://4483345998",
