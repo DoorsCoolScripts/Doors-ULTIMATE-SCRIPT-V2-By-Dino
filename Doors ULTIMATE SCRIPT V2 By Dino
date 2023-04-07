@@ -405,3 +405,45 @@ Tab:AddButton({
       	end    
 })
 Tab:AddLabel("Or Just Use The Built In Auto-Fly To Not Get Ban!")
+local Tab = Window:MakeTab({
+	Name = "UNIVERSAL",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "EZ HUB (150+ GAMES)",
+	Callback = function()
+         loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+      	end    
+})
+Tab:AddButton({
+	Name = "OWL HUB (50+ GAMES)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "INFINITE YEILD (1M+ GAMES)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "UNFAIR HUB (100+ GAMES)",
+	Callback = function()
+         loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+      	end    
+})
+Tab:AddButton({
+	Name = "NUKEHUB (KEY = gon)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "SPACE HUB (100+ GAMES",
+	Callback = function()
+         loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
+      	end    
+})
+Tab:AddLabel("Some Games Are Not Supported!")
