@@ -192,6 +192,12 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
+	Name = "BANANA THROW (SUPER HARD MODE)",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
+      	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
