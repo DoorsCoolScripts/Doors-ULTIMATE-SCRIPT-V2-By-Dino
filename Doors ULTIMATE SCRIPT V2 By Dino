@@ -12,7 +12,7 @@ function MakeScriptHub()
 		Time = 5
 	})
 	wait (5)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-ULTIMATE-SCRIPT-V2-By-Dino/main/Doors%20ULTIMATE%20SCRIPT%20V2%20By%20Dino"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-ULTIMATE-SCRIPT-V2-By-Dino/d9a3c7554cae12705b1e5a445bf514f5732f4cb0/Doors%20ULTIMATE%20SCRIPT%20V2%20By%20Dino"))()
 end
 
 function CorrectKeyEntered()
