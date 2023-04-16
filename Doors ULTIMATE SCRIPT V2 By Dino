@@ -247,7 +247,7 @@ Tab:AddButton({
 	end    
 })
 Tab:AddButton({
-	Name = "BECOME PARTLY BLIND",
+	Name = "BECOME PARTLY BLIND (PATCHED)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Blind.lua"))()
       	end    
