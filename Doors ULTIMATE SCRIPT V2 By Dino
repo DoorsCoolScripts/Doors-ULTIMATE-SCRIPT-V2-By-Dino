@@ -114,10 +114,10 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "DUPE PLUSHIE",
+	Name = "ALL PLUSHIES GUI",
 	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/dupe-plushie/main/Dupe%20Plushie"))()
-      	end    
+		loadstring(game:HttpGet("https://pastebin.com/raw/s21b8TkT", true))()
+	end    
 })
 Tab:AddButton({
 	Name = "NERD HACK (AUTO HIDE +)",
@@ -192,10 +192,144 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "BANANA THROW (SUPER HARD MODE)",
+	Name = "BANANA THROW (FE SUPER HARD MODE)",
 	Callback = function()
          loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
       	end    
+})
+Tab:AddButton({
+	Name = "BANANA GUN (FE SUPER HARD MODE)",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+	end    
+})
+Tab:AddButton({
+	Name = "HOLY HAND GERNADE ON EVERYTHING",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/x0YVrBkd", true))()
+	end    
+})
+Tab:AddButton({
+	Name = "GERNADE ON EVERYTHING",
+	Callback = function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/zeFBYYy9", true))()
+	end    
+})
+Tab:AddButton({
+	Name = "REMOVE BANANAS AND JEFF",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/April%20Fools%20Helper.lua", true))()
+	end    
+})
+Tab:AddButton({
+	Name = "TURN HOLY HAND GERNADE INTO REAL GERNADE",
+	Callback = function()
+		game.Players.LocalPlayer.Backpack.ChildAdded:Connect(function()
+			if game.Players.LocalPlayer.Backpack:FindFirstChild("HolyGrenade") then	
+				local HolyGrenade = game.Players.LocalPlayer.Backpack.HolyGrenade
+				local Grenade = game:GetObjects("rbxassetid://431532934")[1]
+				local Weld = Instance.new("Weld")
+				
+				HolyGrenade.Handle.Transparency = 1
+				HolyGrenade.TextureId = "http://www.roblox.com/asset/?id=913025958"
+				HolyGrenade.Handle.sound_open.SoundId = "rbxassetid://5699659105"
+		
+				Grenade.Parent = HolyGrenade	
+				Grenade.CanCollide = false	
+				Grenade.Anchored = false		
+				Grenade.Size = Vector3.new(1, 1, 1)
+				
+				Weld.Parent = Grenade
+				Weld.Part0 = Grenade	
+				Weld.Part1 = HolyGrenade.Handle
+			end
+		end)		
+	end    
+})
+Tab:AddButton({
+	Name = "BECOME PARTLY BLIND",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Blind.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "TURN SCREECH INTO HAPPY MEAL",
+	Callback = function()
+		local Screech = game:GetObjects("rbxassetid://13046474650")[1]
+Screech.Parent = game:GetService("ReplicatedStorage"):WaitForChild("Entities")
+game:GetService("Debris"):AddItem(game:GetService("ReplicatedStorage"):WaitForChild("Entities").Screech, 0)
+      	end    
+})
+Tab:AddButton({
+	Name = "GET CHICKEN ITEM",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Item.lua"))()
+      	end    
+})
+Tab:AddButton({
+	Name = "GET PURPLE FLASHLIGHT",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
+	end    
+})
+Tab:AddButton({
+	Name = "GET GUMMY FLASHLIGHT (PATCHED)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Gummy%20Flashlight%20Script"))()
+	end    
+})
+Tab:AddButton({
+	Name = "DEATH + KNOBS FARMER (EXECUTE ABOVE DOOR 30-40 FOR KNOBS)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Doors%20Death%20Farmer"))()
+	end    
+})
+Tab:AddButton({
+	Name = "MAXWELL CAT PLUSHIE",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
+	end    
+})
+Tab:AddButton({
+	Name = "AUTO SWITCH DISPLAY ACHEIVEMENTS",
+	Callback = function()
+		local list = require(game:GetService("ReplicatedStorage").Achievements)
+		while task.wait() do
+			for i,v in pairs(list) do 
+				game:GetService("ReplicatedStorage").EntityInfo.FlexAchievement:FireServer(i)
+			end
+		end
+	end    
+})
+Tab:AddButton({
+	Name = "GET JEFF THE KILLER PLUSHIE",
+	Callback = function()
+		local tool = game:GetObjects("rbxassetid://13069619857")[1]
+		tool.Parent = game.Players.LocalPlayer.Backpack
+      	end    
+})
+Tab:AddButton({
+	Name = "FE JACK SPAMMER (MIGHT NEED ANTICHEAT BYPASS)",
+	Callback = function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/hyay9T8n'))()
+      	end    
+})
+Tab:AddButton({
+	Name = "BIRTHDAY MODE",
+	Callback = function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/BirthdayModeDOORS/main/BirthdayModeScript'))()
+	end    
+})
+Tab:AddButton({
+	Name = "FREE TABLET IN STARTER SHOP",
+	Callback = function()
+		_G.UpdateStars = true -- stars disappear after picking up a book/breaker pole | false: a little lag
+		_G.OnShop = true -- can buy on pre run shop
+		_G.Price = 0  -- tablet price on shop
+		_G.Description = "Stole This Tablet From A Six Year Old. I Think He's Mad😂" -- tablet description on shop
+		
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+	end    
 })
 Tab:AddButton({
 	Name = "DESTORY GUI",
@@ -329,7 +463,7 @@ Tab:AddButton({
   	end    
 })
 Tab:AddButton({
-	Name = "SEE CORRECT ANSWERS",
+	Name = "SEE CORRECT TILES",
 	Callback = function()
       		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/correctsee/main/e"))()
   	end    
@@ -674,3 +808,15 @@ Tab:AddButton({
      loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
       	end    
 })
+local Tab = Window:MakeTab({
+	Name = "BEDWARS",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "VXPE (VERY VERY OP)",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+      	end    
+})
+Tab:AddLabel("New Wurst Client Coming Soon, Will Be Better Than Vxpe!")
