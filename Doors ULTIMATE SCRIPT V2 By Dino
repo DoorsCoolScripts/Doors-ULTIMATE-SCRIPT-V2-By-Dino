@@ -332,6 +332,18 @@ Tab:AddButton({
 	end    
 })
 Tab:AddButton({
+	Name = "LAZER GUN",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+	end    
+})
+Tab:AddButton({
+	Name = "BETTER BANANA GUN (only synapse x)",
+	Callback = function()
+         loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
