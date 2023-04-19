@@ -321,11 +321,11 @@ Tab:AddButton({
 	end    
 })
 Tab:AddButton({
-	Name = "FREE TABLET IN STARTER SHOP",
+	Name = "5 KNOB TABLET IN STARTER SHOP",
 	Callback = function()
 		_G.UpdateStars = true -- stars disappear after picking up a book/breaker pole | false: a little lag
 		_G.OnShop = true -- can buy on pre run shop
-		_G.Price = 0  -- tablet price on shop
+		_G.Price = 5  -- tablet price on shop
 		_G.Description = "Stole This Tablet From A Six Year Old. I Think He's Mad😂" -- tablet description on shop
 		
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
@@ -349,6 +349,27 @@ Tab:AddButton({
          loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doorsgun0/main/op%20script"))()
 	end    
 })
+Tab:AddButton({
+	Name = "ADD SWORD IN STARTER SHOP (5 KNOBS)",
+	Callback = function()
+         local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
+
+
+
+local exampleTool = LoadCustomInstance("rbxassetid://47433")
+
+
+CustomShop.CreateItem(exampleTool, {
+    Title = "Sword",
+    Desc = "It slices, it dices.",
+    Image = "https://tr.rbxcdn.com/0c57ae9f8f02ff45adf3ddff6710b33a/420/420/Model/Png",
+    Price = 5,
+    Stack = 1,
+})
+	end    
+})
+Tab:AddLabel("None Of The Starter Shop Items Will Affect Your Knobs!")
 Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
