@@ -344,6 +344,12 @@ Tab:AddButton({
 	end    
 })
 Tab:AddButton({
+	Name = "ADD GUNS ON DOOR 0 NEXT TO KEY!",
+	Callback = function()
+         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doorsgun0/main/op%20script"))()
+	end    
+})
+Tab:AddButton({
 	Name = "DESTORY GUI",
 	Callback = function()
          OrionLib:Destroy()
@@ -562,6 +568,95 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+Tab:AddButton({
+	Name = "ADD FAKE VIDEO STAR ICON",
+	Callback = function()
+         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+local UserId = game:GetService("Players").LocalPlayer.UserId
+
+while true do
+    if PlayerList then
+        local Player = PlayerList["p_".. UserId]
+        
+        if Player then
+            local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+            
+            if PlayerIcon then
+                PlayerIcon.Image = "http://www.roblox.com/asset/?id=10048816455"
+            end
+        end
+    end
+    task.wait()
+end
+      	end    
+})
+Tab:AddButton({
+	Name = "ADD FAKE PREMIUM ICON",
+	Callback = function()
+         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+local UserId = game:GetService("Players").LocalPlayer.UserId
+
+while true do
+	if PlayerList then
+		local Player = PlayerList["p_".. UserId]
+		
+		if Player then
+			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+			
+			if PlayerIcon then
+				PlayerIcon.Image = "http://www.roblox.com/asset/?id=6071020687"
+			end
+		end
+	end
+	task.wait()
+end
+      	end
+})
+Tab:AddButton({
+	Name = "ADD FAKE VERIFIED ICON",
+	Callback = function()
+         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+local UserId = game:GetService("Players").LocalPlayer.UserId
+
+while true do
+	if PlayerList then
+		local Player = PlayerList["p_".. UserId]
+		
+		if Player then
+			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+			
+			if PlayerIcon then
+				PlayerIcon.Image = "http://www.roblox.com/asset/?id=11478378840"
+			end
+		end
+	end
+	task.wait()
+end
+      	end    
+})
+Tab:AddButton({
+	Name = "ADD FAKE ROBLOX ADMIN LOGO/ICON",
+	Callback = function()
+         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+local UserId = game:GetService("Players").LocalPlayer.UserId
+
+while true do
+	if PlayerList then
+		local Player = PlayerList["p_".. UserId]
+		
+		if Player then
+			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+			
+			if PlayerIcon then
+				PlayerIcon.Image = "http://www.roblox.com/asset/?id=10086464520"
+			end
+		end
+	end
+	task.wait()
+end
+      	end    
+})
+Tab:AddLabel("Please Note That The Icons Are NOT FE!")
 Tab:AddButton({
 	Name = "EZ HUB (150+ GAMES)",
 	Callback = function()
