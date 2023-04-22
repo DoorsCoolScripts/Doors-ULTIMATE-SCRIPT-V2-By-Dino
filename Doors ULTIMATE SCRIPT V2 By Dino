@@ -948,9 +948,9 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "WURST (VERY VERY VERY VERY OP)",
+	Name = "WURST CLIENT (OP+++ + WHITELISTED)",
 	Callback = function()
-         local wl = {"en5er_n4me","RonaldMcBozo","heckeroncreckV3","GlAmorousNoGod","AyyThatOneKid","1234iamadinosaurraur"}
+         local wl = {"RonaldMcBozo"}
 for i,wld in ipairs(wl) do
 print(wld)
 if wld == game.Players.LocalPlayer.Name then
@@ -1051,5 +1051,5 @@ end
 return loadstring(vapeGithubRequest("MainScript.lua"))()
 end
 end
-})
 end
+})
