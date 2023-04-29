@@ -939,7 +939,7 @@ Tab:AddButton({
 Tab:AddButton({
 	Name = "SPAWN BASIC CAR (CAMARO)",
 	Callback = function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
+     local args = {[1] = "Chassis", [2] = "Camaro"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
       	end    
 })
 local Tab = Window:MakeTab({
