@@ -948,8 +948,14 @@ local Tab = Window:MakeTab({
 	PremiumOnly = false
 })
 Tab:AddButton({
-	Name = "VXPE (VERY VERY OP)",
+	Name = "VXPE (VERY VERY ASSS)",
 	Callback = function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+      	end    
+})
+Tab:AddButton({
+	Name = "WURST (VERY VERY OPPPP(and whitelisted(and open source)))",
+	Callback = function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/WurstRoblox/VapeV4WurstEdition-ButNoVape/main/NewMainScript.lua", true))()
       	end    
 })
