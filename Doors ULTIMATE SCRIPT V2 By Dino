@@ -942,6 +942,12 @@ Tab:AddButton({
      local args = {[1] = "Chassis", [2] = "Camaro"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
       	end    
 })
+Tab:AddButton({
+	Name = "SENSATION HUB (WAY TOO OP)",
+	Callback = function()
+   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/06073a4d0b5869f6be09868f0970548a.lua"))()
+          end    
+})
 local Tab = Window:MakeTab({
 	Name = "BEDWARS",
 	Icon = "rbxassetid://4483345998",
