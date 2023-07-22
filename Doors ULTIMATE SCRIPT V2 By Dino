@@ -1009,7 +1009,7 @@ wait(.00000000000000000000000000000000000000000000000000000000000000000000000000
 end
 
 local Tab = Window:MakeTab({
-	Name = "+1 Money Every Second",
+	Name = "+1 MONEY EVERY CLICK",
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
