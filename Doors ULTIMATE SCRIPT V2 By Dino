@@ -1080,3 +1080,136 @@ game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@Glob
 
   	end    
 })
+
+_G.WhatEggUsing = "string"
+
+
+Tab:AddDropdown({
+	Name = "Choose Egg To Open",
+	Default = "1",
+	Options = {"Grass Egg", "Stone Egg", "Cactus Egg", "Sandstone Egg", "Snowman Egg", "Ice Egg"},
+	Callback = function(Value)
+		_G.WhatEggUsing = Value
+	end    
+})
+
+Tab:AddButton({
+	Name = "Open Egg Selected",
+	Callback = function()
+		if _G.WhatEggUsing == "Grass Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Grass Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+        end
+        if _G.WhatEggUsing == "Stone Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Stone Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+      	end   
+          if _G.WhatEggUsing == "Cactus Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Cactus Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+        end
+        if _G.WhatEggUsing == "Sandstone Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Sandstone Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+        end
+        if _G.WhatEggUsing == "Snowman Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Snowman Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))      
+        end
+        if _G.WhatEggUsing == "Ice Egg" then
+            local args = {
+                [1] = 0,
+                [2] = "Ice Egg"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+        end    
+        end
+        })
+        
+        _G.autoopenegg = false
+
+		function autoopenegg()
+			while _G.autoopenegg == true do
+			if _G.WhatEggUsing == "Grass Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Grass Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			end
+			if _G.WhatEggUsing == "Stone Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Stone Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			  end   
+			  if _G.WhatEggUsing == "Cactus Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Cactus Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			end
+			if _G.WhatEggUsing == "Sandstone Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Sandstone Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			end
+			if _G.WhatEggUsing == "Snowman Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Snowman Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))      
+			end
+			if _G.WhatEggUsing == "Ice Egg" then
+				local args = {
+					[1] = 0,
+					[2] = "Ice Egg"
+				}
+				
+				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			wait(1)
+			autoopenegg()
+			end    
+		end
+	end
+		
+
+        Tab:AddToggle({
+	Name = "Auto Open Egg Selected",
+	Default = false,
+	Callback = function(Value)
+		_G.autoopenegg = Value
+		autoopenegg()
+	end    
+})
