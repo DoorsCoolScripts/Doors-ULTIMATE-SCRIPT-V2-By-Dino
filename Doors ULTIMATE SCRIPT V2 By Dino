@@ -942,10 +942,18 @@ Tab:AddButton({
      local args = {[1] = "Chassis", [2] = "Camaro"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
       	end    
 })
+Tab:AddBind({
+	Name = "SPAWN TESLA ON KEYBIND",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+     local args = {[1] = "Chassis", [2] = "Model3"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
+	end    
+})
 Tab:AddButton({
 	Name = "SENSATION HUB (WAY TOO OP)",
 	Callback = function()
-   loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/06073a4d0b5869f6be09868f0970548a.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
           end    
 })
 local Tab = Window:MakeTab({
