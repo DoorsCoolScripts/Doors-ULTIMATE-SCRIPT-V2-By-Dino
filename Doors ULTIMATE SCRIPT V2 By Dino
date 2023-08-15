@@ -557,15 +557,22 @@ for i = 1,a do
 end
       	end    
 })
-Tab:AddButton({
-	Name = "QUICK SPEED AFK AUTO FARM",
-	Callback = function()
-         function l()
+
+_G.RunningAutoFarm = true
+
+function pooerpe()
+while _G.RunningAutoFarm == true do
   game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(50)
 wait(0.0000001)
-l()
 end
-l()
+end
+
+Tab:AddToggle({
+	Name = "QUICK SPEED AFK AUTO FARM",
+	Defualt = false,
+	Callback = function(Value)
+         _G.RunningAutoFarm = Value
+         pooerpe()
       	end    
 })
 Tab:AddButton({
