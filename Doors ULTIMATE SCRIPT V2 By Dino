@@ -1213,11 +1213,11 @@ Tab:AddButton({
 				}
 				
 				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+			end
 			wait(1)
 			autoopenegg()
 			end    
 		end
-	end
 		
 
         Tab:AddToggle({
