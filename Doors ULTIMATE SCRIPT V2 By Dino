@@ -1,3 +1,53 @@
+local args = {
+[1] = "#1 script DINOHAX",
+[2] = "All"
+}
+
+game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+local args = {
+    [1] = "UNIVERSAL + GAME DESIGNED SCRIPTS",
+    [2] = "All"
+    }
+    
+    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+    
+    local args = {
+        [1] = "gg/vYYQJ4qRw",
+        [2] = "All"
+        }
+        
+        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+        
+        local args = {
+            [1] = "only cool people are in gg/vYYQJ4qRw 😎",
+            [2] = "All"
+            }
+            
+            game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+            
+            local args = {
+                [1] = "don't cry because im hacking your just bad😎🤣🙂",
+                [2] = "All"
+                }
+                
+                game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+                
+                local args = {
+                    [1] = "#1 scripts = Jailbreak, +1 Money Every Click, Glide Race, and Doors",
+                    [2] = "All"
+                    }
+                    
+                    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+                    
+                    local args = {
+                        [1] = "DINOHAX ON TOP FOR FREE UNIVERSAL SCRIPTS gg/vYYQJ4qRw💯💯💯💯💯",
+                        [2] = "All"
+                        }
+                        
+                        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
+
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "DinoHax", HidePremium = true, SaveConfig = true, ConfigFolder = "dinocon", IntroText = "DinoHax", IntroIcon = "rbxassetid://13034797311"})
 local Tab = Window:MakeTab({
@@ -733,6 +783,7 @@ local Tab = Window:MakeTab({
 	Icon = "rbxassetid://4483345998",
 	PremiumOnly = false
 })
+
 Tab:AddButton({
 	Name = "ICE TRAY GUI (!KEY! !VERY OP!)",
 	Callback = function()
@@ -938,9 +989,9 @@ Tab:AddButton({
       	end    
 })
 Tab:AddButton({
-	Name = "AUTO ROB",
+	Name = "PROJECT AUTO",
 	Callback = function()
-     loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/5d4b0843f800d5dcac07568e18190b7e.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
       	end    
 })
 Tab:AddButton({
@@ -950,12 +1001,35 @@ Tab:AddButton({
       	end    
 })
 Tab:AddBind({
-	Name = "SPAWN TESLA ON KEYBIND",
+	Name = "SPAWN LA MATADOR ON KEYBIND",
 	Default = Enum.KeyCode.E,
 	Hold = false,
 	Callback = function()
-     local args = {[1] = "Chassis", [2] = "Model3"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
+     local args = {[1] = "Chassis", [2] = "Lamborghini"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
 	end    
+})
+_G.IsLoaderOn = false
+
+function loaderc()
+	while _G.IsLoaderOn == true do
+		game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+		wait(0.00000000000000000000000000000000000000000000000000000001)
+	end
+end
+	
+Tab:AddToggle({
+	Name = "AUTO LOAD CAR CUSTMIZATION",
+	Default = false,
+	Callback = function(Value)
+		_G.IsLoaderOn = Value
+		loaderc()
+	end    
+})
+Tab:AddButton({
+	Name = "LOAD CAR CUSTMIZATION",
+	Callback = function()
+		game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+          end    
 })
 Tab:AddButton({
 	Name = "SENSATION HUB (WAY TOO OP)",
