@@ -1,1245 +1,1198 @@
 local args = {
-[1] = "#1 script DINOHAX",
-[2] = "All"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-
-local args = {
-    [1] = "UNIVERSAL + GAME DESIGNED SCRIPTS",
-    [2] = "All"
-    }
-    
-    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-    
-    local args = {
-        [1] = "gg/vYYQJ4qRw",
-        [2] = "All"
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-        
-        local args = {
-            [1] = "only cool people are in gg/vYYQJ4qRw 😎",
-            [2] = "All"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-            
-            local args = {
-                [1] = "don't cry because im hacking your just bad😎🤣🙂",
-                [2] = "All"
-                }
-                
-                game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-                
-                local args = {
-                    [1] = "#1 scripts = Jailbreak, +1 Money Every Click, Glide Race, and Doors",
-                    [2] = "All"
-                    }
-                    
-                    game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-                    
-                    local args = {
-                        [1] = "DINOHAX ON TOP FOR FREE UNIVERSAL SCRIPTS gg/vYYQJ4qRw💯💯💯💯💯",
-                        [2] = "All"
-                        }
-                        
-                        game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-
-
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "DinoHax", HidePremium = true, SaveConfig = true, ConfigFolder = "dinocon", IntroText = "DinoHax", IntroIcon = "rbxassetid://13034797311"})
-local Tab = Window:MakeTab({
-	Name = "DOORS",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "OPEN VYNIXIUS HUB SCRIPT (ROOMS + DOORS)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN MSDOORS SCRIPT (ROOMS + DOORS)",
-	Callback = function()
-         loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN VERY OP SCRIPT (INF KNOBS +)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN POOPDOORS V0.1 (ORGINAL)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/bypassspeed100/main/op%20script"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN MORPHS SCRIPT (KINDA BAD WILL UPDATE)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN ENTITY SPAWNER SCRIPT",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN BYPASSER SCRIPT",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/weszek/Doors/main/Doors%20by'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN FREE TABLET SCRIPT",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "TABLET IN RIFT",
-	Callback = function()
-         loadstring(game:HttpGet('https://pastebin.com/raw/bucRxAMi'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN MAYHEM MODE SCRIPT",
-	Callback = function()
-         loadstring(game:HttpGet("https://github.com/HollowedOutMods/MayhemMode/blob/main/loader.lua?raw=true"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "NEVER BE KICKED FROM GAME",
-	Callback = function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/gsxvWvnj"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "INFINTE YEILD",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "FLOOR 2 TEXTURES",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "HARDCORE MODE",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-Hardcore-/main/Doors%20Hardcore"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "FREE CRUCIFIX (PLAYER SPAWNED)",
-	Callback = function()
-         _G.Uses = 1 _G.Range = 30 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "A-1000 AUTOWALK",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealGeo/roblox/master/rooms-autowalk"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "TERMINALVIBES HUB (KINDA GOOD)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/loadstring.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "IMPOSSIBLE MODE",
-	Callback = function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/CKBP3r47"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "ALL PLUSHIES GUI",
-	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/s21b8TkT", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "NERD HACK (AUTO HIDE +)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/FullDoorsGuiHack_Done.lua", true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "10+ SCRIPTS IN ONE GUI",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OPEN DOORS EARLY",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-Godmode/main/op"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "INF USE CRUCIFIX",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/INF-Crucifix/main/op'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "DOORS FLOOR 2 (VERY HARD)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/FloorSpoof/main/Floor2Spoof"))()
-      	end
-})
-Tab:AddButton({
-	Name = "FREE SHEARS (CAN BREAK GAME)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Shears/main/op"))()
-  	end    
-})
-Tab:AddButton({
-	Name = "SHEARS IN RIFT (CAN BREAK GAME)",
-	Callback = function()
-      		loadstring(game:HttpGet("https://github.com/CreckHub/main-Scripts/raw/main/shears.lua"))()
-  	end    
-})
-Tab:AddButton({
-	Name = "GET A GUN",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doors-gun/main/gun"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "BECOME TINY",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/small-doors/main/op%20script"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "ULTRA VITAMINS (DRUGS)",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/god-vitamins/main/op%20script'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "KILL YOURSELF",
-	Callback = function()
-        game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
-      	end    
-})
-Tab:AddButton({
-	Name = "CRUCIFIX ON EVERYTHING (Q + LEFT CLICK)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/crucifixonall/main/op%20script"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "BANANA THROW (FE SUPER HARD MODE)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "BANANA GUN (FE SUPER HARD MODE)",
-	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "HOLY HAND GERNADE ON EVERYTHING",
-	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/x0YVrBkd", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "GERNADE ON EVERYTHING",
-	Callback = function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/zeFBYYy9", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "REMOVE BANANAS AND JEFF",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/April%20Fools%20Helper.lua", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "TURN HOLY HAND GERNADE INTO REAL GERNADE",
-	Callback = function()
-		game.Players.LocalPlayer.Backpack.ChildAdded:Connect(function()
-			if game.Players.LocalPlayer.Backpack:FindFirstChild("HolyGrenade") then	
-				local HolyGrenade = game.Players.LocalPlayer.Backpack.HolyGrenade
-				local Grenade = game:GetObjects("rbxassetid://431532934")[1]
-				local Weld = Instance.new("Weld")
+	[1] = "#1 script DINOHAX",
+	[2] = "All"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+	wait(0.25)
+	local args = {
+		[1] = "UNIVERSAL + GAME DESIGNED SCRIPTS",
+		[2] = "All"
+		}
+		
+		game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+		wait(0.25)
+		local args = {
+			[1] = "gg/vYYQJ4qRw",
+			[2] = "All"
+			}
+			
+			game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+			wait(0.25)
+			local args = {
+				[1] = "only cool people are in gg/vYYQJ4qRw 😎",
+				[2] = "All"
+				}
 				
-				HolyGrenade.Handle.Transparency = 1
-				HolyGrenade.TextureId = "http://www.roblox.com/asset/?id=913025958"
-				HolyGrenade.Handle.sound_open.SoundId = "rbxassetid://5699659105"
-		
-				Grenade.Parent = HolyGrenade	
-				Grenade.CanCollide = false	
-				Grenade.Anchored = false		
-				Grenade.Size = Vector3.new(1, 1, 1)
+				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+				wait(0.25)
+				local args = {
+					[1] = "don't cry because im hacking your just bad😎🤣🙂",
+					[2] = "All"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+					wait(0.25)
+					local args = {
+						[1] = "#1 scripts = Jailbreak, +1 Money Every Click, Glide Race, and Doors",
+						[2] = "All"
+						}
+						
+						game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+						wait(0.25)
+						local args = {
+							[1] = "DINOHAX ON TOP FOR FREE UNIVERSAL SCRIPTS gg/vYYQJ4qRw💯💯💯💯💯",
+							[2] = "All"
+							}
+							
+							game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+	
+	
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local Window = OrionLib:MakeWindow({Name = "DinoHax", HidePremium = true, SaveConfig = true, ConfigFolder = "dinocon", IntroText = "DinoHax", IntroIcon = "rbxassetid://13034797311"})
+	local Tab = Window:MakeTab({
+		Name = "DOORS",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "OPEN VYNIXIUS HUB SCRIPT (ROOMS + DOORS)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN MSDOORS SCRIPT (ROOMS + DOORS)",
+		Callback = function()
+			 loadstring(game:HttpGet(("https://raw.githubusercontent.com/mstudio45/MSDOORS/main/MSDOORS.lua"),true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN VERY OP SCRIPT (INF KNOBS +)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/sponguss/Doors-Entity-Replicator/main/source.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN POOPDOORS V0.1 (ORGINAL)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/bypassspeed100/main/op%20script"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN MORPHS SCRIPT (KINDA BAD WILL UPDATE)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/ChronoAccelerator/Public-Scripts/main/Morphing/MorphScript.lua"))();
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN ENTITY SPAWNER SCRIPT",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/UtilitiesHub/main/UtilitiesGUI'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN BYPASSER SCRIPT",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/weszek/Doors/main/Doors%20by'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN FREE TABLET SCRIPT",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "TABLET IN RIFT",
+		Callback = function()
+			 loadstring(game:HttpGet('https://pastebin.com/raw/bucRxAMi'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN MAYHEM MODE SCRIPT",
+		Callback = function()
+			 loadstring(game:HttpGet("https://github.com/HollowedOutMods/MayhemMode/blob/main/loader.lua?raw=true"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "NEVER BE KICKED FROM GAME",
+		Callback = function()
+			 loadstring(game:HttpGet("https://pastebin.com/raw/gsxvWvnj"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "INFINTE YEILD",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "FLOOR 2 TEXTURES",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/iCherryKardes/Doors/main/Floor%202%20Mod"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "HARDCORE MODE",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-Hardcore-/main/Doors%20Hardcore"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "FREE CRUCIFIX (PLAYER SPAWNED)",
+		Callback = function()
+			 _G.Uses = 1 _G.Range = 30 loadstring(game:HttpGet('https://raw.githubusercontent.com/PenguinManiack/Crucifix/main/Crucifix.lua'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "A-1000 AUTOWALK",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DaRealGeo/roblox/master/rooms-autowalk"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "TERMINALVIBES HUB (KINDA GOOD)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/OminousVibes-Exploit/Scripts/main/doors/loadstring.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "IMPOSSIBLE MODE",
+		Callback = function()
+			 loadstring(game:HttpGet("https://pastebin.com/raw/CKBP3r47"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ALL PLUSHIES GUI",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/s21b8TkT", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "NERD HACK (AUTO HIDE +)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/MrNeRD0/Doors-Hack/main/FullDoorsGuiHack_Done.lua", true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "10+ SCRIPTS IN ONE GUI",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/doors"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OPEN DOORS EARLY",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Doors-Godmode/main/op"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "INF USE CRUCIFIX",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/INF-Crucifix/main/op'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "DOORS FLOOR 2 (VERY HARD)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/FloorSpoof/main/Floor2Spoof"))()
+			  end
+	})
+	Tab:AddButton({
+		Name = "FREE SHEARS (CAN BREAK GAME)",
+		Callback = function()
+				  loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/Shears/main/op"))()
+		  end    
+	})
+	Tab:AddButton({
+		Name = "SHEARS IN RIFT (CAN BREAK GAME)",
+		Callback = function()
+				  loadstring(game:HttpGet("https://github.com/CreckHub/main-Scripts/raw/main/shears.lua"))()
+		  end    
+	})
+	Tab:AddButton({
+		Name = "GET A GUN",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doors-gun/main/gun"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "BECOME TINY",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/small-doors/main/op%20script"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ULTRA VITAMINS (DRUGS)",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/DoorsCoolScripts/god-vitamins/main/op%20script'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "KILL YOURSELF",
+		Callback = function()
+			game:GetService("Players").LocalPlayer.Character.Humanoid.Health = 0
+			  end    
+	})
+	Tab:AddButton({
+		Name = "CRUCIFIX ON EVERYTHING (Q + LEFT CLICK)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/crucifixonall/main/op%20script"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "BANANA THROW (FE SUPER HARD MODE)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/BananaThrow/main/Op"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "BANANA GUN (FE SUPER HARD MODE)",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "HOLY HAND GERNADE ON EVERYTHING",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/x0YVrBkd", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "GERNADE ON EVERYTHING",
+		Callback = function()
+			loadstring(game:HttpGet("https://pastebin.com/raw/zeFBYYy9", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "REMOVE BANANAS AND JEFF",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/April%20Fools%20Helper.lua", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "TURN HOLY HAND GERNADE INTO REAL GERNADE",
+		Callback = function()
+			game.Players.LocalPlayer.Backpack.ChildAdded:Connect(function()
+				if game.Players.LocalPlayer.Backpack:FindFirstChild("HolyGrenade") then	
+					local HolyGrenade = game.Players.LocalPlayer.Backpack.HolyGrenade
+					local Grenade = game:GetObjects("rbxassetid://431532934")[1]
+					local Weld = Instance.new("Weld")
+					
+					HolyGrenade.Handle.Transparency = 1
+					HolyGrenade.TextureId = "http://www.roblox.com/asset/?id=913025958"
+					HolyGrenade.Handle.sound_open.SoundId = "rbxassetid://5699659105"
+			
+					Grenade.Parent = HolyGrenade	
+					Grenade.CanCollide = false	
+					Grenade.Anchored = false		
+					Grenade.Size = Vector3.new(1, 1, 1)
+					
+					Weld.Parent = Grenade
+					Weld.Part0 = Grenade	
+					Weld.Part1 = HolyGrenade.Handle
+				end
+			end)		
+		end    
+	})
+	Tab:AddButton({
+		Name = "BECOME PARTLY BLIND (PATCHED)",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Blind.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "TURN SCREECH INTO HAPPY MEAL",
+		Callback = function()
+			local Screech = game:GetObjects("rbxassetid://13046474650")[1]
+	Screech.Parent = game:GetService("ReplicatedStorage"):WaitForChild("Entities")
+	game:GetService("Debris"):AddItem(game:GetService("ReplicatedStorage"):WaitForChild("Entities").Screech, 0)
+			  end    
+	})
+	Tab:AddButton({
+		Name = "GET CHICKEN ITEM",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Item.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "GET PURPLE FLASHLIGHT",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "GET A FLASHLIGHT",
+		Callback = function()
+		 loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "DEATH + KNOBS FARMER (EXECUTE ABOVE DOOR 30-40 FOR KNOBS)",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Doors%20Death%20Farmer"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "MAXWELL CAT PLUSHIE",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "AUTO SWITCH DISPLAY ACHEIVEMENTS",
+		Callback = function()
+			local list = require(game:GetService("ReplicatedStorage").Achievements)
+			while task.wait() do
+				for i,v in pairs(list) do 
+					game:GetService("ReplicatedStorage").EntityInfo.FlexAchievement:FireServer(i)
+				end
+			end
+		end    
+	})
+	Tab:AddButton({
+		Name = "GET JEFF THE KILLER PLUSHIE",
+		Callback = function()
+			local tool = game:GetObjects("rbxassetid://13069619857")[1]
+			tool.Parent = game.Players.LocalPlayer.Backpack
+			  end    
+	})
+	Tab:AddButton({
+		Name = "FE JACK SPAMMER (MIGHT NEED ANTICHEAT BYPASS)",
+		Callback = function()
+			loadstring(game:HttpGet('https://pastebin.com/raw/hyay9T8n'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "BIRTHDAY MODE",
+		Callback = function()
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/BirthdayModeDOORS/main/BirthdayModeScript'))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "5 KNOB TABLET IN STARTER SHOP",
+		Callback = function()
+			_G.UpdateStars = true -- stars disappear after picking up a book/breaker pole | false: a little lag
+			_G.OnShop = true -- can buy on pre run shop
+			_G.Price = 5  -- tablet price on shop
+			_G.Description = "Stole This Tablet From A Six Year Old. I Think He's Mad😂" -- tablet description on shop
+			
+			loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "LAZER GUN",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "BETTER BANANA GUN (only synapse x)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "ADD GUNS ON DOOR 0 NEXT TO KEY!",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doorsgun0/main/op%20script"))()
+		end    
+	})
+	Tab:AddButton({
+		Name = "ADD SWORD IN STARTER SHOP (5 KNOBS)",
+		Callback = function()
+			 local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
+	local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
+	
+	
+	
+	local exampleTool = LoadCustomInstance("rbxassetid://47433")
+	
+	
+	CustomShop.CreateItem(exampleTool, {
+		Title = "Sword",
+		Desc = "It slices, it dices.",
+		Image = "https://tr.rbxcdn.com/0c57ae9f8f02ff45adf3ddff6710b33a/420/420/Model/Png",
+		Price = 5,
+		Stack = 1,
+	})
+		end    
+	})
+	Tab:AddButton({
+		Name = "CHICKEN MOD",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Mod.lua", true))()
+			  end    
+	})
+	Tab:AddLabel("None Of The Starter Shop Items Will Affect Your Knobs!")
+	Tab:AddButton({
+		Name = "DESTORY GUI",
+		Callback = function()
+			 OrionLib:Destroy()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "ARSENAL",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "ARSENAL SCRIPT",
+		Callback = function()
+			 loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "PSX",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "PSX SCRIPTS",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "KAT",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "BIG PAINTBALL",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "PLS DONATE",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "FAKE DONATION (CLIENT SIDED)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ROBUX GRINDER #1",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/tzechco"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ROBUX GRINDER #2",
+		Callback = function()
+			 loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "MY RESTAURANT",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "INFINITE YEILD",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "RAFA HUB (#1 OP GUI)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/mr.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "XYZ HUB (#2 SCRIPT GUI)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://system-exodus.com/scripts/MyRestaurant/MyRestaurant.lua", true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "PROJECT WD !KEY! (#3 SCIPT GUI)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "MILK UP (#4 KINDA BAD SCRIPT)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://pastebin.com/raw/uBpUr2vU"))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "IMPOSSIBLE GLASS BRIDGE OBBY",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "AFK AUTO FARM",
+		Callback = function()
+				  function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218) wait(0.75) l() end l()
+		  end    
+	})
+	Tab:AddButton({
+		Name = "TP TO THE END",
+		Callback = function()
+				  game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218)
+		  end    
+	})
+	Tab:AddButton({
+		Name = "SEE CORRECT TILES",
+		Callback = function()
+				  loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/correctsee/main/e"))()
+		  end    
+	})
+	Tab:AddButton({
+		Name = "HIDE GAMEPASS STUFF",
+		Callback = function()
+				  game:GetService("Workspace").Pads.Parent = game.Lighting -- remove gamepass pads
+				game:GetService("Workspace")["Become Squid Front Man"].Parent = game.Lighting -- remove become front man gamepass
+				game:GetService("Workspace")["Become Squid Game Guard"].Parent = game.Lighting -- remove become guard gamepass
+				game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = false -- remove gamepass gui   
+		  end    
+	})
+	Tab:AddButton({
+		Name = "SHOW GAMEPASS STUFF",
+		Callback = function()
+				  game:GetService("Lighting").Pads.Parent = game.workspace -- add gamepass pads
+				game:GetService("Lighting")["Become Squid Front Man"].Parent = game.workspace -- add become front man gamepass
+				game:GetService("Lighting")["Become Squid Game Guard"].Parent = game.workspace -- add become guard gamepass
+				game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = true -- add gamepass gui
+		  end    
+	})
+	Tab:AddButton({
+		Name = "INFINITE YEILD",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "TP NEXT TO END",
+		Callback = function()
+			 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1076.18481, 60.9356613, 115.200974, -0.0746926963, 1.08275178e-09, -0.997206628, -2.08716222e-09, 1, 1.2421173e-09, 0.997206628, 2.17410911e-09, -0.0746926963)
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "GLIDE RACE",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "+1M SPEED (LIGHTNING)",
+		Callback = function()
+			 local a = 1000000
+	for i = 1,a do
+	  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+	end
+			  end    
+	})
+	
+	_G.RunningAutoFarm = true
+	
+	function pooerpe()
+	while _G.RunningAutoFarm == true do
+	  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(50)
+	wait(0.0000001)
+	end
+	end
+	
+	Tab:AddToggle({
+		Name = "QUICK SPEED AFK AUTO FARM",
+		Defualt = false,
+		Callback = function(Value)
+			 _G.RunningAutoFarm = Value
+			 pooerpe()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "+10K SPEED",
+		Callback = function()
+			 local a = 10000
+	for i = 1,a do
+	  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+	end
+			  end    
+	})
+	Tab:AddButton({
+		Name = "+1 SPEED",
+		Callback = function()
+	  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SLOWER AUTOFARM (LESS CHANCE OF BAN)",
+		Callback = function()
+			 function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.90702939, 181.860809, 11.6168785, -0.999289513, 0.00669043371, 0.0370909795, -1.2993616e-08, 0.984118164, -0.177514598, -0.0376895554, -0.177388474, -0.983418941) wait(120) l() end l()
+			  end    
+	})
+	Tab:AddLabel("Or Just Use The Built In Auto-Fly To Not Get Ban!")
+	local Tab = Window:MakeTab({
+		Name = "UNIVERSAL",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "ADD FAKE VIDEO STAR ICON",
+		Callback = function()
+			 local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+	local UserId = game:GetService("Players").LocalPlayer.UserId
+	
+	while true do
+		if PlayerList then
+			local Player = PlayerList["p_".. UserId]
+			
+			if Player then
+				local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
 				
-				Weld.Parent = Grenade
-				Weld.Part0 = Grenade	
-				Weld.Part1 = HolyGrenade.Handle
-			end
-		end)		
-	end    
-})
-Tab:AddButton({
-	Name = "BECOME PARTLY BLIND (PATCHED)",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Blind.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "TURN SCREECH INTO HAPPY MEAL",
-	Callback = function()
-		local Screech = game:GetObjects("rbxassetid://13046474650")[1]
-Screech.Parent = game:GetService("ReplicatedStorage"):WaitForChild("Entities")
-game:GetService("Debris"):AddItem(game:GetService("ReplicatedStorage"):WaitForChild("Entities").Screech, 0)
-      	end    
-})
-Tab:AddButton({
-	Name = "GET CHICKEN ITEM",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Item.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "GET PURPLE FLASHLIGHT",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Purple%20Flashlight"))()
-	end    
-})
-Tab:AddButton({
-	Name = "GET A FLASHLIGHT",
-	Callback = function()
-	 loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Normal%20Flashlight"))()
-	end    
-})
-Tab:AddButton({
-	Name = "DEATH + KNOBS FARMER (EXECUTE ABOVE DOOR 30-40 FOR KNOBS)",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Doors%20Death%20Farmer"))()
-	end    
-})
-Tab:AddButton({
-	Name = "MAXWELL CAT PLUSHIE",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Maxwell%20Plushie"))()
-	end    
-})
-Tab:AddButton({
-	Name = "AUTO SWITCH DISPLAY ACHEIVEMENTS",
-	Callback = function()
-		local list = require(game:GetService("ReplicatedStorage").Achievements)
-		while task.wait() do
-			for i,v in pairs(list) do 
-				game:GetService("ReplicatedStorage").EntityInfo.FlexAchievement:FireServer(i)
+				if PlayerIcon then
+					PlayerIcon.Image = "http://www.roblox.com/asset/?id=10048816455"
+				end
 			end
 		end
-	end    
-})
-Tab:AddButton({
-	Name = "GET JEFF THE KILLER PLUSHIE",
-	Callback = function()
-		local tool = game:GetObjects("rbxassetid://13069619857")[1]
-		tool.Parent = game.Players.LocalPlayer.Backpack
-      	end    
-})
-Tab:AddButton({
-	Name = "FE JACK SPAMMER (MIGHT NEED ANTICHEAT BYPASS)",
-	Callback = function()
-		loadstring(game:HttpGet('https://pastebin.com/raw/hyay9T8n'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "BIRTHDAY MODE",
-	Callback = function()
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/plamen6789/BirthdayModeDOORS/main/BirthdayModeScript'))()
-	end    
-})
-Tab:AddButton({
-	Name = "5 KNOB TABLET IN STARTER SHOP",
-	Callback = function()
-		_G.UpdateStars = true -- stars disappear after picking up a book/breaker pole | false: a little lag
-		_G.OnShop = true -- can buy on pre run shop
-		_G.Price = 5  -- tablet price on shop
-		_G.Description = "Stole This Tablet From A Six Year Old. I Think He's Mad😂" -- tablet description on shop
-		
-		loadstring(game:HttpGet('https://raw.githubusercontent.com/DeividComSono/Scripts/main/Scanner.lua'))()
-	end    
-})
-Tab:AddButton({
-	Name = "LAZER GUN",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/K0t1n/Public/main/Laser%20Gun"))()
-	end    
-})
-Tab:AddButton({
-	Name = "BETTER BANANA GUN (only synapse x)",
-	Callback = function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/CBxBM55t", true))()
-	end    
-})
-Tab:AddButton({
-	Name = "ADD GUNS ON DOOR 0 NEXT TO KEY!",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/doorsgun0/main/op%20script"))()
-	end    
-})
-Tab:AddButton({
-	Name = "ADD SWORD IN STARTER SHOP (5 KNOBS)",
-	Callback = function()
-         local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Functions.lua"))()
-local CustomShop = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Doors/Custom%20Shop%20Items/Source.lua"))()
-
-
-
-local exampleTool = LoadCustomInstance("rbxassetid://47433")
-
-
-CustomShop.CreateItem(exampleTool, {
-    Title = "Sword",
-    Desc = "It slices, it dices.",
-    Image = "https://tr.rbxcdn.com/0c57ae9f8f02ff45adf3ddff6710b33a/420/420/Model/Png",
-    Price = 5,
-    Stack = 1,
-})
-	end    
-})
-Tab:AddButton({
-	Name = "CHICKEN MOD",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/iimateiYT/Scripts/main/Chicken%20Mod.lua", true))()
-      	end    
-})
-Tab:AddLabel("None Of The Starter Shop Items Will Affect Your Knobs!")
-Tab:AddButton({
-	Name = "DESTORY GUI",
-	Callback = function()
-         OrionLib:Destroy()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "ARSENAL",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "ARSENAL SCRIPT",
-	Callback = function()
-         loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "PSX",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "PSX SCRIPTS",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/petsimx", true))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "KAT",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "BIG PAINTBALL",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "OWL HUB (GLOBAL + GAME DESIGNED)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "PLS DONATE",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "FAKE DONATION (CLIENT SIDED)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/o5u3/PLS-Donate/main/Fake-Donate.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "ROBUX GRINDER #1",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/1f0yt/community/main/tzechco"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "ROBUX GRINDER #2",
-	Callback = function()
-         loadstring(game:HttpGet('https://tubhub.cloud/scripts/prettyplease.lua', false))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "MY RESTAURANT",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "INFINITE YEILD",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "RAFA HUB (#1 OP GUI)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Rafacasari/roblox-scripts/main/mr.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "XYZ HUB (#2 SCRIPT GUI)",
-	Callback = function()
-         loadstring(game:HttpGet("https://system-exodus.com/scripts/MyRestaurant/MyRestaurant.lua", true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "PROJECT WD !KEY! (#3 SCIPT GUI)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "MILK UP (#4 KINDA BAD SCRIPT)",
-	Callback = function()
-         loadstring(game:HttpGet("https://pastebin.com/raw/uBpUr2vU"))()
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "IMPOSSIBLE GLASS BRIDGE OBBY",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "AFK AUTO FARM",
-	Callback = function()
-      		function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218) wait(0.75) l() end l()
-  	end    
-})
-Tab:AddButton({
-	Name = "TP TO THE END",
-	Callback = function()
-      		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1106.52405, 68.5134888, 115.337601, 0.100361556, -0.136246175, -0.985578299, -6.19830587e-09, 0.990579665, -0.136937574, 0.99495101, 0.0137432739, 0.0994161218)
-  	end    
-})
-Tab:AddButton({
-	Name = "SEE CORRECT TILES",
-	Callback = function()
-      		loadstring(game:HttpGet("https://raw.githubusercontent.com/DoorsCoolScripts/correctsee/main/e"))()
-  	end    
-})
-Tab:AddButton({
-	Name = "HIDE GAMEPASS STUFF",
-	Callback = function()
-      		game:GetService("Workspace").Pads.Parent = game.Lighting -- remove gamepass pads
-            game:GetService("Workspace")["Become Squid Front Man"].Parent = game.Lighting -- remove become front man gamepass
-            game:GetService("Workspace")["Become Squid Game Guard"].Parent = game.Lighting -- remove become guard gamepass
-            game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = false -- remove gamepass gui   
-  	end    
-})
-Tab:AddButton({
-	Name = "SHOW GAMEPASS STUFF",
-	Callback = function()
-      		game:GetService("Lighting").Pads.Parent = game.workspace -- add gamepass pads
-            game:GetService("Lighting")["Become Squid Front Man"].Parent = game.workspace -- add become front man gamepass
-            game:GetService("Lighting")["Become Squid Game Guard"].Parent = game.workspace -- add become guard gamepass
-            game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = true -- add gamepass gui
-  	end    
-})
-Tab:AddButton({
-	Name = "INFINITE YEILD",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "TP NEXT TO END",
-	Callback = function()
-         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1076.18481, 60.9356613, 115.200974, -0.0746926963, 1.08275178e-09, -0.997206628, -2.08716222e-09, 1, 1.2421173e-09, 0.997206628, 2.17410911e-09, -0.0746926963)
-      	end    
-})
-local Tab = Window:MakeTab({
-	Name = "GLIDE RACE",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "+1M SPEED (LIGHTNING)",
-	Callback = function()
-         local a = 1000000
-for i = 1,a do
-  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
-end
-      	end    
-})
-
-_G.RunningAutoFarm = true
-
-function pooerpe()
-while _G.RunningAutoFarm == true do
-  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(50)
-wait(0.0000001)
-end
-end
-
-Tab:AddToggle({
-	Name = "QUICK SPEED AFK AUTO FARM",
-	Defualt = false,
-	Callback = function(Value)
-         _G.RunningAutoFarm = Value
-         pooerpe()
-      	end    
-})
-Tab:AddButton({
-	Name = "+10K SPEED",
-	Callback = function()
-         local a = 10000
-for i = 1,a do
-  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "+1 SPEED",
-	Callback = function()
-  game:GetService("ReplicatedStorage").Remote.Event.Game:FindFirstChild("[C-S]PlayerPick"):FireServer(1)
-      	end    
-})
-Tab:AddButton({
-	Name = "SLOWER AUTOFARM (LESS CHANCE OF BAN)",
-	Callback = function()
-         function l() game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2.90702939, 181.860809, 11.6168785, -0.999289513, 0.00669043371, 0.0370909795, -1.2993616e-08, 0.984118164, -0.177514598, -0.0376895554, -0.177388474, -0.983418941) wait(120) l() end l()
-      	end    
-})
-Tab:AddLabel("Or Just Use The Built In Auto-Fly To Not Get Ban!")
-local Tab = Window:MakeTab({
-	Name = "UNIVERSAL",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "ADD FAKE VIDEO STAR ICON",
-	Callback = function()
-         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
-local UserId = game:GetService("Players").LocalPlayer.UserId
-
-while true do
-    if PlayerList then
-        local Player = PlayerList["p_".. UserId]
-        
-        if Player then
-            local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
-            
-            if PlayerIcon then
-                PlayerIcon.Image = "http://www.roblox.com/asset/?id=10048816455"
-            end
-        end
-    end
-    task.wait()
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "ADD FAKE PREMIUM ICON",
-	Callback = function()
-         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
-local UserId = game:GetService("Players").LocalPlayer.UserId
-
-while true do
-	if PlayerList then
-		local Player = PlayerList["p_".. UserId]
-		
-		if Player then
-			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
-			
-			if PlayerIcon then
-				PlayerIcon.Image = "http://www.roblox.com/asset/?id=6071020687"
-			end
-		end
+		task.wait()
 	end
-	task.wait()
-end
-      	end
-})
-Tab:AddButton({
-	Name = "ADD FAKE VERIFIED ICON",
-	Callback = function()
-         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
-local UserId = game:GetService("Players").LocalPlayer.UserId
-
-while true do
-	if PlayerList then
-		local Player = PlayerList["p_".. UserId]
-		
-		if Player then
-			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ADD FAKE PREMIUM ICON",
+		Callback = function()
+			 local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+	local UserId = game:GetService("Players").LocalPlayer.UserId
+	
+	while true do
+		if PlayerList then
+			local Player = PlayerList["p_".. UserId]
 			
-			if PlayerIcon then
-				PlayerIcon.Image = "http://www.roblox.com/asset/?id=11478378840"
+			if Player then
+				local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+				
+				if PlayerIcon then
+					PlayerIcon.Image = "http://www.roblox.com/asset/?id=6071020687"
+				end
 			end
 		end
+		task.wait()
 	end
-	task.wait()
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "ADD FAKE ROBLOX ADMIN LOGO/ICON",
-	Callback = function()
-         local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
-local UserId = game:GetService("Players").LocalPlayer.UserId
-
-while true do
-	if PlayerList then
-		local Player = PlayerList["p_".. UserId]
-		
-		if Player then
-			local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+			  end
+	})
+	Tab:AddButton({
+		Name = "ADD FAKE VERIFIED ICON",
+		Callback = function()
+			 local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+	local UserId = game:GetService("Players").LocalPlayer.UserId
+	
+	while true do
+		if PlayerList then
+			local Player = PlayerList["p_".. UserId]
 			
-			if PlayerIcon then
-				PlayerIcon.Image = "http://www.roblox.com/asset/?id=10086464520"
+			if Player then
+				local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+				
+				if PlayerIcon then
+					PlayerIcon.Image = "http://www.roblox.com/asset/?id=11478378840"
+				end
 			end
 		end
+		task.wait()
 	end
-	task.wait()
-end
-      	end    
-})
-Tab:AddLabel("Please Note That The Icons Are NOT FE!")
-Tab:AddButton({
-	Name = "EZ HUB (150+ GAMES)",
-	Callback = function()
-         loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "OWL HUB (50+ GAMES)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "INFINITE YEILD (1M+ GAMES)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "UNFAIR HUB (100+ GAMES)",
-	Callback = function()
-         loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "NUKEHUB (KEY = gon)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "SPACE HUB (100+ GAMES",
-	Callback = function()
-         loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
-      	end    
-})
-Tab:AddLabel("The Key For Space Hub Is ILOVEChristmas523798347982147889tyhfg984232")
-local Tab = Window:MakeTab({
-	Name = "JAILBREAK",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddButton({
-	Name = "ICE TRAY GUI (!KEY! !VERY OP!)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "VYNIXIUS HUB (WORKS WITH SOME EXECUTERS)",
-	Callback = function()
-         loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "SILENT AIM + WALLBANG",
-	Callback = function()
-getgenv().toggled = true --/ true & f1alse
-
-getgenv().old = getgenv().old or require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
-
-if getgenv().toggled then
-	require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+			  end    
+	})
+	Tab:AddButton({
+		Name = "ADD FAKE ROBLOX ADMIN LOGO/ICON",
+		Callback = function()
+			 local PlayerList = game:GetService("CoreGui").PlayerList.PlayerListMaster.OffsetFrame.PlayerScrollList.SizeOffsetFrame.ScrollingFrameContainer.ScrollingFrameClippingFrame.ScollingFrame.OffsetUndoFrame
+	local UserId = game:GetService("Players").LocalPlayer.UserId
+	
+	while true do
+		if PlayerList then
+			local Player = PlayerList["p_".. UserId]
+			
+			if Player then
+				local PlayerIcon = Player.ChildrenFrame.NameFrame.BGFrame.OverlayFrame.PlayerIcon
+				
+				if PlayerIcon then
+					PlayerIcon.Image = "http://www.roblox.com/asset/?id=10086464520"
+				end
+			end
+		end
+		task.wait()
+	end
+			  end    
+	})
+	Tab:AddLabel("Please Note That The Icons Are NOT FE!")
+	Tab:AddButton({
+		Name = "EZ HUB (150+ GAMES)",
+		Callback = function()
+			 loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "OWL HUB (50+ GAMES)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "INFINITE YEILD (1M+ GAMES)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "UNFAIR HUB (100+ GAMES)",
+		Callback = function()
+			 loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "NUKEHUB (KEY = gon)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SPACE HUB (100+ GAMES",
+		Callback = function()
+			 loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
+			  end    
+	})
+	Tab:AddLabel("The Key For Space Hub Is ILOVEChristmas523798347982147889tyhfg984232")
+	local Tab = Window:MakeTab({
+		Name = "JAILBREAK",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	
+	Tab:AddButton({
+		Name = "ICE TRAY GUI (!KEY! !VERY OP!)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/piglex9/icetray3/main/latest.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "VYNIXIUS HUB (WORKS WITH SOME EXECUTERS)",
+		Callback = function()
+			 loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SILENT AIM + WALLBANG",
+		Callback = function()
+	getgenv().toggled = true --/ true & f1alse
+	
+	getgenv().old = getgenv().old or require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
+	
+	if getgenv().toggled then
+		require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+			local nearestDistance, nearestEnemy = 1000, nil
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				if v.Team ~= game:GetService("Players").LocalPlayer.Team and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+					if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
+						nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
+					end
+				end
+			end
+			local arg = {old(...)}
+			if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy then
+				arg[1] = nearestEnemy.Character.HumanoidRootPart
+				arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+			end
+			return unpack(arg)
+		end
+	else
+		require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = getgenv().old
+	end
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SILENT AIM + WALLBANG (OFF)",
+		Callback = function()
+	getgenv().toggled = false --/ true & f1alse
+	
+	getgenv().old = getgenv().old or require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
+	
+	if getgenv().toggled then
+		require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+			local nearestDistance, nearestEnemy = 1000, nil
+			for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+				if v.Team ~= game:GetService("Players").LocalPlayer.Team and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+					if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
+						nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
+					end
+				end
+			end
+			local arg = {old(...)}
+			if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy then
+				arg[1] = nearestEnemy.Character.HumanoidRootPart
+				arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+			end
+			return unpack(arg)
+		end
+	else
+		require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = getgenv().old
+	end
+			  end    
+	})
+	Tab:AddButton({
+		Name = "KILLAURA (MUST HAVE GUN/WEAPON)",
+		Callback = function()
+			 --/ Created by MinWasTaken#2873, MinWasTaken on scriptblox. 
+	
+	getgenv().toggled = true-- change this to false to stop kill aura. 
+	
+	if getgenv().killauraloaded then return end
+	
+	local old = require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
+	
+	local function getNearestEnemy()
 		local nearestDistance, nearestEnemy = 1000, nil
-	    for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-	    	if v.Team ~= game:GetService("Players").LocalPlayer.Team and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
-	    	    if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
-	    	    	nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
-	    	    end
-	    	end
-	    end
-	    local arg = {old(...)}
-	    if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy then
-		    arg[1] = nearestEnemy.Character.HumanoidRootPart
-		    arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+		local myTeam = tostring(game:GetService("Players").LocalPlayer.Team)
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			local theirTeam = tostring(v.Team)
+			if ((myTeam == "Police" and theirTeam == "Criminal") or theirTeam == "Police") and theirTeam ~= myTeam and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+				if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
+					nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
+				end
+			end
 		end
-	    return unpack(arg)
+		return nearestEnemy
 	end
-else
-	require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = getgenv().old
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "SILENT AIM + WALLBANG (OFF)",
-	Callback = function()
-getgenv().toggled = false --/ true & f1alse
-
-getgenv().old = getgenv().old or require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
-
-if getgenv().toggled then
-	require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+	local function shoot()
+		local currentGun = require(game:GetService("ReplicatedStorage").Game:WaitForChild("ItemSystem"):WaitForChild("ItemSystem")).GetLocalEquipped()
+		if not currentGun then return end
+		require(game:GetService("ReplicatedStorage").Game:WaitForChild("Item"):WaitForChild("Gun"))._attemptShoot(currentGun)
+	end
+	getgenv().killauraloaded = true
+	while wait(0.5) do
+		if getgenv().toggled == false then continue end
+		if not game:GetService("Players").LocalPlayer.Character then continue end
+		if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then continue end
+		
+		local nearestEnemy = getNearestEnemy()
+		if nearestEnemy then
+			require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+				local arg = {old(...)}
+				if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 then
+					  arg[1] = nearestEnemy.Character.HumanoidRootPart
+					  arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+				  end
+				return unpack(arg)
+			end
+			if not game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				fireclickdetector(workspace.Givers:GetChildren()[17].ClickDetector)
+			end
+			if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				while game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 do
+					game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(true)
+					wait()
+					shoot()
+				end
+			end
+			if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(false)
+			end
+		else
+			require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = old
+		end
+	end
+			  end    
+	})
+	Tab:AddButton({
+		Name = "KILLAURA (OFF)",
+		Callback = function()
+			 --/ Created by MinWasTaken#2873, MinWasTaken on scriptblox. 
+	
+	getgenv().toggled = false-- change this to false to stop kill aura. 
+	
+	if getgenv().killauraloaded then return end
+	
+	local old = require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
+	
+	local function getNearestEnemy()
 		local nearestDistance, nearestEnemy = 1000, nil
-	    for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-	    	if v.Team ~= game:GetService("Players").LocalPlayer.Team and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
-	    	    if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
-	    	    	nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
-	    	    end
-	    	end
-	    end
-	    local arg = {old(...)}
-	    if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy then
-		    arg[1] = nearestEnemy.Character.HumanoidRootPart
-		    arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+		local myTeam = tostring(game:GetService("Players").LocalPlayer.Team)
+		for i,v in pairs(game:GetService("Players"):GetPlayers()) do
+			local theirTeam = tostring(v.Team)
+			if ((myTeam == "Police" and theirTeam == "Criminal") or theirTeam == "Police") and theirTeam ~= myTeam and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
+				if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
+					nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
+				end
+			end
 		end
-	    return unpack(arg)
+		return nearestEnemy
 	end
-else
-	require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = getgenv().old
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "KILLAURA (MUST HAVE GUN/WEAPON)",
-	Callback = function()
-         --/ Created by MinWasTaken#2873, MinWasTaken on scriptblox. 
-
-getgenv().toggled = true-- change this to false to stop kill aura. 
-
-if getgenv().killauraloaded then return end
-
-local old = require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
-
-local function getNearestEnemy()
-    local nearestDistance, nearestEnemy = 1000, nil
-    local myTeam = tostring(game:GetService("Players").LocalPlayer.Team)
-    for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-        local theirTeam = tostring(v.Team)
-	    if ((myTeam == "Police" and theirTeam == "Criminal") or theirTeam == "Police") and theirTeam ~= myTeam and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
-	    	if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
-	    	    nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
-	    	end
-	    end
+	local function shoot()
+		local currentGun = require(game:GetService("ReplicatedStorage").Game:WaitForChild("ItemSystem"):WaitForChild("ItemSystem")).GetLocalEquipped()
+		if not currentGun then return end
+		require(game:GetService("ReplicatedStorage").Game:WaitForChild("Item"):WaitForChild("Gun"))._attemptShoot(currentGun)
 	end
-    return nearestEnemy
-end
-local function shoot()
-    local currentGun = require(game:GetService("ReplicatedStorage").Game:WaitForChild("ItemSystem"):WaitForChild("ItemSystem")).GetLocalEquipped()
-    if not currentGun then return end
-    require(game:GetService("ReplicatedStorage").Game:WaitForChild("Item"):WaitForChild("Gun"))._attemptShoot(currentGun)
-end
-getgenv().killauraloaded = true
-while wait(0.5) do
-	if getgenv().toggled == false then continue end
-	if not game:GetService("Players").LocalPlayer.Character then continue end
-	if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then continue end
+	getgenv().killauraloaded = true
+	while wait(0.5) do
+		if getgenv().toggled == false then continue end
+		if not game:GetService("Players").LocalPlayer.Character then continue end
+		if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then continue end
+		
+		local nearestEnemy = getNearestEnemy()
+		if nearestEnemy then
+			require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
+				local arg = {old(...)}
+				if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 then
+					  arg[1] = nearestEnemy.Character.HumanoidRootPart
+					  arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
+				  end
+				return unpack(arg)
+			end
+			if not game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				fireclickdetector(workspace.Givers:GetChildren()[17].ClickDetector)
+			end
+			if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				while game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 do
+					game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(true)
+					wait()
+					shoot()
+				end
+			end
+			if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
+				game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(false)
+			end
+		else
+			require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = old
+		end
+	end
+			  end    
+	})
+	Tab:AddButton({
+		Name = "CHAOS (FREE EXECUTER SUPPORT)",
+		Callback = function()
+			 loadstring(game:HttpGet(('https://raw.githubusercontent.com/xChaoticVoid/Jailbreak/main/Chaos.lua'), true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "PROJECT AUTO",
+		Callback = function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SPAWN BASIC CAR (CAMARO)",
+		Callback = function()
+		 local args = {[1] = "Chassis", [2] = "Camaro"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
+			  end    
+	})
+	Tab:AddBind({
+		Name = "SPAWN LA MATADOR WITH CUSTOMIZATION",
+		Default = Enum.KeyCode.E,
+		Hold = false,
+		Callback = function()
+		 local args = {[1] = "Chassis", [2] = "Lamborghini"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args)) wait(1) 			game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+		end    
+	})
+	Tab:AddBind({
+		Name = "LOAD CUSTIMIZATION ON KEYBIND",
+		Default = Enum.KeyCode.E,
+		Hold = false,
+		Callback = function()
+			game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+		end    
+	})
+	_G.IsLoaderOn = false
 	
-    local nearestEnemy = getNearestEnemy()
-    if nearestEnemy then
-        require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
-	        local arg = {old(...)}
-	        if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 then
-		          arg[1] = nearestEnemy.Character.HumanoidRootPart
-		          arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
-		      end
-	        return unpack(arg)
-	    end
-	    if not game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        fireclickdetector(workspace.Givers:GetChildren()[17].ClickDetector)
-	    end
-	    if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        while game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 do
-	            game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(true)
-	            wait()
-	            shoot()
-	        end
-	    end
-	    if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(false)
-	    end
-    else
-        require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = old
-    end
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "KILLAURA (OFF)",
-	Callback = function()
-         --/ Created by MinWasTaken#2873, MinWasTaken on scriptblox. 
-
-getgenv().toggled = false-- change this to false to stop kill aura. 
-
-if getgenv().killauraloaded then return end
-
-local old = require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList
-
-local function getNearestEnemy()
-    local nearestDistance, nearestEnemy = 1000, nil
-    local myTeam = tostring(game:GetService("Players").LocalPlayer.Team)
-    for i,v in pairs(game:GetService("Players"):GetPlayers()) do
-        local theirTeam = tostring(v.Team)
-	    if ((myTeam == "Police" and theirTeam == "Criminal") or theirTeam == "Police") and theirTeam ~= myTeam and v.Character and v.Character:FindFirstChild("HumanoidRootPart") then
-	    	if (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < nearestDistance then
-	    	    nearestDistance, nearestEnemy = (v.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude, v
-	    	end
-	    end
+	function loaderc()
+		while _G.IsLoaderOn == true do
+			game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+			wait(0.00000000000000000000000000000000000000000000000000000001)
+		end
 	end
-    return nearestEnemy
-end
-local function shoot()
-    local currentGun = require(game:GetService("ReplicatedStorage").Game:WaitForChild("ItemSystem"):WaitForChild("ItemSystem")).GetLocalEquipped()
-    if not currentGun then return end
-    require(game:GetService("ReplicatedStorage").Game:WaitForChild("Item"):WaitForChild("Gun"))._attemptShoot(currentGun)
-end
-getgenv().killauraloaded = true
-while wait(0.5) do
-	if getgenv().toggled == false then continue end
-	if not game:GetService("Players").LocalPlayer.Character then continue end
-	if not game:GetService("Players").LocalPlayer.Character:FindFirstChild("HumanoidRootPart") then continue end
+		
+	Tab:AddToggle({
+		Name = "AUTO LOAD CAR CUSTMIZATION",
+		Default = false,
+		Callback = function(Value)
+			_G.IsLoaderOn = Value
+			loaderc()
+		end    
+	})
+	Tab:AddButton({
+		Name = "LOAD CAR CUSTMIZATION",
+		Callback = function()
+			game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "SENSATION HUB (WAY TOO OP)",
+		Callback = function()
+	loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
+			  end    
+	})
+	local Tab = Window:MakeTab({
+		Name = "BEDWARS",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	Tab:AddButton({
+		Name = "VXPE (VERY VERY ASSS)",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+			  end    
+	})
+	Tab:AddButton({
+		Name = "WURST (VERY VERY OPPPP(and whitelisted(and open source)))",
+		Callback = function()
+			loadstring(game:HttpGet("https://raw.githubusercontent.com/WurstRoblox/VapeV4WurstEdition-ButNoVape/main/NewMainScript.lua", true))()
+			  end    
+	})
 	
-    local nearestEnemy = getNearestEnemy()
-    if nearestEnemy then
-        require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = function(...)
-	        local arg = {old(...)}
-	        if (tostring(getfenv(2).script) == "BulletEmitter" or tostring(getfenv(2).script) == "Taser") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 then
-		          arg[1] = nearestEnemy.Character.HumanoidRootPart
-		          arg[2] = nearestEnemy.Character.HumanoidRootPart.Position
-		      end
-	        return unpack(arg)
-	    end
-	    if not game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        fireclickdetector(workspace.Givers:GetChildren()[17].ClickDetector)
-	    end
-	    if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        while game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") and nearestEnemy and nearestEnemy.Character and nearestEnemy.Character:FindFirstChild("HumanoidRootPart") and nearestEnemy.Character:FindFirstChild("Humanoid") and (nearestEnemy.Character.HumanoidRootPart.Position - game:GetService("Players").LocalPlayer.Character.HumanoidRootPart.Position).Magnitude < 600 and nearestEnemy.Character.Humanoid.Health > 0 do
-	            game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(true)
-	            wait()
-	            shoot()
-	        end
-	    end
-	    if game:GetService("Players").LocalPlayer.Folder:FindFirstChild("Pistol") then
-	        game:GetService("Players").LocalPlayer.Folder.Pistol.InventoryEquipRemote:FireServer(false)
-	    end
-    else
-        require(game:GetService("ReplicatedStorage").Module.RayCast).RayIgnoreNonCollideWithIgnoreList = old
-    end
-end
-      	end    
-})
-Tab:AddButton({
-	Name = "CHAOS (FREE EXECUTER SUPPORT)",
-	Callback = function()
-         loadstring(game:HttpGet(('https://raw.githubusercontent.com/xChaoticVoid/Jailbreak/main/Chaos.lua'), true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "PROJECT AUTO",
-	Callback = function()
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Pxsta72/ProjectAuto/main/free"))()
-      	end    
-})
-Tab:AddButton({
-	Name = "SPAWN BASIC CAR (CAMARO)",
-	Callback = function()
-     local args = {[1] = "Chassis", [2] = "Camaro"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
-      	end    
-})
-Tab:AddBind({
-	Name = "SPAWN LA MATADOR ON KEYBIND",
-	Default = Enum.KeyCode.E,
-	Hold = false,
-	Callback = function()
-     local args = {[1] = "Chassis", [2] = "Lamborghini"} game:GetService("ReplicatedStorage"):WaitForChild("GarageSpawnVehicle"):FireServer(unpack(args))
-	end    
-})
-_G.IsLoaderOn = false
-
-function loaderc()
-	while _G.IsLoaderOn == true do
-		game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
-		wait(0.00000000000000000000000000000000000000000000000000000001)
+	
+	_G.autoclicker = true
+	_G.autorebirth = true
+	_G.autospin = true
+	_G.autobest = true
+	
+	function autotapper()
+		while _G.autoclicker == true do
+			game:GetService("ReplicatedStorage"):WaitForChild("events-shared/network@GlobalEvents"):WaitForChild("placeBlock"):FireServer()
+	wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+		end
 	end
-end
 	
-Tab:AddToggle({
-	Name = "AUTO LOAD CAR CUSTMIZATION",
-	Default = false,
-	Callback = function(Value)
-		_G.IsLoaderOn = Value
-		loaderc()
-	end    
-})
-Tab:AddButton({
-	Name = "LOAD CAR CUSTMIZATION",
-	Callback = function()
-		game:GetService("ReplicatedStorage"):WaitForChild("GarageLoadLastSelection"):FireServer()
-          end    
-})
-Tab:AddButton({
-	Name = "SENSATION HUB (WAY TOO OP)",
-	Callback = function()
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/730854e5b6499ee91deb1080e8e12ae3.lua"))()
-          end    
-})
-local Tab = Window:MakeTab({
-	Name = "BEDWARS",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-Tab:AddButton({
-	Name = "VXPE (VERY VERY ASSS)",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
-      	end    
-})
-Tab:AddButton({
-	Name = "WURST (VERY VERY OPPPP(and whitelisted(and open source)))",
-	Callback = function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/WurstRoblox/VapeV4WurstEdition-ButNoVape/main/NewMainScript.lua", true))()
-      	end    
-})
-
-
-_G.autoclicker = true
-_G.autorebirth = true
-_G.autospin = true
-_G.autobest = true
-
-function autotapper()
-    while _G.autoclicker == true do
-        game:GetService("ReplicatedStorage"):WaitForChild("events-shared/network@GlobalEvents"):WaitForChild("placeBlock"):FireServer()
-wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-end
-
-function autobester()
-    while _G.autobest == true do
-game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:equipBestPets"):FireServer()
-wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-end
-
-function autospinner()
-    while _G.autospin == true do
-        local args = {
-            [1] = 9
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:spin"):FireServer(unpack(args))
-wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-end
-
-function autorebirther()
-    while _G.autorebirth == true do
-        local args = {
-            [1] = 4
-        }
-        
-        game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:rebirth"):FireServer(unpack(args)) 
-wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
-    end
-end
-
-local Tab = Window:MakeTab({
-	Name = "+1 MONEY EVERY CLICK",
-	Icon = "rbxassetid://4483345998",
-	PremiumOnly = false
-})
-
-Tab:AddToggle({
-	Name = "Auto Clicker",
-	Default = false,
-	Callback = function(Value)
-		_G.autoclicker = Value
-        autotapper()
-	end    
-})
-
-Tab:AddToggle({
-	Name = "Auto Rebirth",
-	Default = false,
-	Callback = function(Value)
-		_G.autorebirth = Value
-        autorebirther()
-	end    
-})
-
-Tab:AddToggle({
-	Name = "Auto Spin Wheel",
-	Default = false,
-	Callback = function(Value)
-		_G.autospin = Value
-        autospinner()
-	end    
-})
-
-Tab:AddToggle({
-	Name = "Auto Equip Best Pets",
-	Default = false,
-	Callback = function(Value)
-		_G.autobest = Value
-        autobester()
-	end    
-})
-
-Tab:AddButton({
-	Name = "Claim All Working Codes",
-	Callback = function()
-      		local args = {
-    [1] = 39,
-    [2] = "ihateseals"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
-local args = {
-    [1] = 39,
-    [2] = "scorpio"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
-local args = {
-    [1] = 39,
-    [2] = "luckyfrog"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
-local args = {
-    [1] = 39,
-    [2] = "KUBO"
-}
-
-game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
-
-  	end    
-})
-
-_G.WhatEggUsing = "string"
-
-
-Tab:AddDropdown({
-	Name = "Choose Egg To Open",
-	Default = "1",
-	Options = {"Grass Egg", "Stone Egg", "Cactus Egg", "Sandstone Egg", "Snowman Egg", "Ice Egg"},
-	Callback = function(Value)
-		_G.WhatEggUsing = Value
-	end    
-})
-
-Tab:AddButton({
-	Name = "Open Egg Selected",
-	Callback = function()
-		if _G.WhatEggUsing == "Grass Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Grass Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-        end
-        if _G.WhatEggUsing == "Stone Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Stone Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-      	end   
-          if _G.WhatEggUsing == "Cactus Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Cactus Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-        end
-        if _G.WhatEggUsing == "Sandstone Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Sandstone Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-        end
-        if _G.WhatEggUsing == "Snowman Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Snowman Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))      
-        end
-        if _G.WhatEggUsing == "Ice Egg" then
-            local args = {
-                [1] = 0,
-                [2] = "Ice Egg"
-            }
-            
-            game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-        end    
-        end
-        })
-        
-        _G.autoopenegg = false
-
-		function autoopenegg()
-			while _G.autoopenegg == true do
+	function autobester()
+		while _G.autobest == true do
+	game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:equipBestPets"):FireServer()
+	wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+		end
+	end
+	
+	function autospinner()
+		while _G.autospin == true do
+			local args = {
+				[1] = 9
+			}
+			
+			game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:spin"):FireServer(unpack(args))
+	wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+		end
+	end
+	
+	function autorebirther()
+		while _G.autorebirth == true do
+			local args = {
+				[1] = 4
+			}
+			
+			game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:rebirth"):FireServer(unpack(args)) 
+	wait(.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001)
+		end
+	end
+	
+	local Tab = Window:MakeTab({
+		Name = "+1 MONEY EVERY CLICK",
+		Icon = "rbxassetid://4483345998",
+		PremiumOnly = false
+	})
+	
+	Tab:AddToggle({
+		Name = "Auto Clicker",
+		Default = false,
+		Callback = function(Value)
+			_G.autoclicker = Value
+			autotapper()
+		end    
+	})
+	
+	Tab:AddToggle({
+		Name = "Auto Rebirth",
+		Default = false,
+		Callback = function(Value)
+			_G.autorebirth = Value
+			autorebirther()
+		end    
+	})
+	
+	Tab:AddToggle({
+		Name = "Auto Spin Wheel",
+		Default = false,
+		Callback = function(Value)
+			_G.autospin = Value
+			autospinner()
+		end    
+	})
+	
+	Tab:AddToggle({
+		Name = "Auto Equip Best Pets",
+		Default = false,
+		Callback = function(Value)
+			_G.autobest = Value
+			autobester()
+		end    
+	})
+	
+	Tab:AddButton({
+		Name = "Claim All Working Codes",
+		Callback = function()
+				  local args = {
+		[1] = 39,
+		[2] = "ihateseals"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
+	local args = {
+		[1] = 39,
+		[2] = "scorpio"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
+	local args = {
+		[1] = 39,
+		[2] = "luckyfrog"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
+	local args = {
+		[1] = 39,
+		[2] = "KUBO"
+	}
+	
+	game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:redeemCode"):FireServer(unpack(args))
+	
+		  end    
+	})
+	
+	_G.WhatEggUsing = "string"
+	
+	
+	Tab:AddDropdown({
+		Name = "Choose Egg To Open",
+		Default = "1",
+		Options = {"Grass Egg", "Stone Egg", "Cactus Egg", "Sandstone Egg", "Snowman Egg", "Ice Egg"},
+		Callback = function(Value)
+			_G.WhatEggUsing = Value
+		end    
+	})
+	
+	Tab:AddButton({
+		Name = "Open Egg Selected",
+		Callback = function()
 			if _G.WhatEggUsing == "Grass Egg" then
 				local args = {
 					[1] = 0,
@@ -1287,18 +1240,73 @@ Tab:AddButton({
 				}
 				
 				game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
-			end
-			wait(1)
-			autoopenegg()
 			end    
-		end
-		
-
-        Tab:AddToggle({
-	Name = "Auto Open Egg Selected",
-	Default = false,
-	Callback = function(Value)
-		_G.autoopenegg = Value
-		autoopenegg()
-	end    
-})
+			end
+			})
+			
+			_G.autoopenegg = false
+	
+			function autoopenegg()
+				while _G.autoopenegg == true do
+				if _G.WhatEggUsing == "Grass Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Grass Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+				end
+				if _G.WhatEggUsing == "Stone Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Stone Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+				  end   
+				  if _G.WhatEggUsing == "Cactus Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Cactus Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+				end
+				if _G.WhatEggUsing == "Sandstone Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Sandstone Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+				end
+				if _G.WhatEggUsing == "Snowman Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Snowman Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))      
+				end
+				if _G.WhatEggUsing == "Ice Egg" then
+					local args = {
+						[1] = 0,
+						[2] = "Ice Egg"
+					}
+					
+					game:GetService("ReplicatedStorage"):WaitForChild("functions-shared/network@GlobalFunctions"):WaitForChild("s:openEgg"):FireServer(unpack(args))
+				end
+				wait(1)
+				autoopenegg()
+				end    
+			end
+			
+	
+			Tab:AddToggle({
+		Name = "Auto Open Egg Selected",
+		Default = false,
+		Callback = function(Value)
+			_G.autoopenegg = Value
+			autoopenegg()
+		end    
+	})
