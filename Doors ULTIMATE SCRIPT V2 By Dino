@@ -1,54 +1,7 @@
-local args = {
-	[1] = "#1 script DINOHAX",
-	[2] = "All"
-	}
-	
-	game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-	wait(0.25)
-	local args = {
-		[1] = "UNIVERSAL + GAME DESIGNED SCRIPTS",
-		[2] = "All"
-		}
-		
-		game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-		wait(0.25)
-		local args = {
-			[1] = "gg/vYYQJ4qRw",
-			[2] = "All"
-			}
-			
-			game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-			wait(0.25)
-			local args = {
-				[1] = "only cool people are in gg/vYYQJ4qRw 😎",
-				[2] = "All"
-				}
-				
-				game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-				wait(0.25)
-				local args = {
-					[1] = "don't cry because im hacking your just bad😎🤣🙂",
-					[2] = "All"
-					}
-					
-					game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-					wait(0.25)
-					local args = {
-						[1] = "#1 scripts = Jailbreak, +1 Money Every Click, Glide Race, and Doors",
-						[2] = "All"
-						}
-						
-						game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
-						wait(0.25)
-						local args = {
-							[1] = "DINOHAX ON TOP FOR FREE UNIVERSAL SCRIPTS gg/vYYQJ4qRw💯💯💯💯💯",
-							[2] = "All"
-							}
-							
-							game:GetService("ReplicatedStorage"):WaitForChild("DefaultChatSystemChatEvents"):WaitForChild("SayMessageRequest"):FireServer(unpack(args))
+
 	
 	
-	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+	local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonhirst/Orion/main/source')))()
 	local Window = OrionLib:MakeWindow({Name = "DinoHax", HidePremium = true, SaveConfig = true, ConfigFolder = "dinocon", IntroText = "DinoHax", IntroIcon = "rbxassetid://13034797311"})
 	local Tab = Window:MakeTab({
 		Name = "DOORS",
@@ -573,13 +526,14 @@ local args = {
 		  end    
 	})
 	Tab:AddButton({
-		Name = "SHOW GAMEPASS STUFF",
+		Name = "All TILES RIGHT",
 		Callback = function()
-				  game:GetService("Lighting").Pads.Parent = game.workspace -- add gamepass pads
-				game:GetService("Lighting")["Become Squid Front Man"].Parent = game.workspace -- add become front man gamepass
-				game:GetService("Lighting")["Become Squid Game Guard"].Parent = game.workspace -- add become guard gamepass
-				game:GetService("Players").LocalPlayer.PlayerGui.Gamepass.Enabled = true -- add gamepass gui
-		  end    
+			  local part = Instance.new("Part", workspace)
+part.Transparency = 10
+part.Anchored = true
+part.CFrame = CFrame.new(122.679802, 56.2743, 101.735954, -0.556737065, 6.50842509e-08, 0.830688775, 5.0377583e-08, 1, -4.4586109e-08, -0.830688775, 1.70253553e-08, -0.556737065)
+part.Size = Vector3.new(2048, 2, 2048)
+			  end    
 	})
 	Tab:AddButton({
 		Name = "INFINITE YEILD",
